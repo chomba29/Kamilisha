@@ -1,0 +1,13 @@
+ID,Area,Procedure or policy,Owner (role),Main users,How often needed,Named as most confusing,Risk if done wrong,First demo
+PR-01,Cards,Card replacement,Cards and Payments,Customer service; tellers,High,Yes,Fraud loss if the old card is not blocked with a signed form,Yes
+PR-02,Cards,New card issuance,Cards and Payments,Customer service,High,No,Card handed to the wrong person,No
+PR-03,Onboarding and account opening,Individual account opening and KYC,Operations; Compliance,Customer service,High,Yes,KYC gap; repeat customer visit,Later
+PR-04,Onboarding and account opening,Business account opening,Operations; Compliance,Customer service; relationship managers,High,Yes,KYC gap; wasted customer trip; QA return,Yes
+PR-05,Onboarding and account opening,Customer information update,Operations,Customer service,Medium,No,Records out of date,Later
+PR-06,Digital channels,SIM banking enrolment,Digital Banking,Customer service,High,No,Account takeover if identity checks are skipped,Later
+PR-07,Digital channels,Internet banking enrolment and PIN reset,Digital Banking,Customer service,Medium,No,Account takeover if identity checks are skipped,Later
+PR-08,Lending,Loan origination checklist,Credit,Relationship managers; credit officers,Medium,No,Loan approved on an incomplete file,Later
+PR-09,Lending,Collateral documentation,Credit,Credit officers,Medium,No,Security not enforceable,Later
+PR-10,Staff affairs,Annual leave,Human Resources,All staff; branch managers,Medium,No,Inconsistent treatment of staff,Yes
+PR-11,Staff affairs,Salary advance and staff loans,Human Resources,All staff,Low,No,Inconsistent treatment of staff,Later
+PR-12,Staff affairs,Staff code of conduct,Human Resources,All staff,Low,No,Disciplinary risk,Later

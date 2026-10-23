@@ -1,0 +1,9 @@
+# Keep secrets and local files out of GitHub
+.env
+__pycache__/
+*.pyc
+.venv/
+.streamlit/secrets.toml
+
+# Old draft file kept locally, superseded by 01-discover/procedure-inventory.csv
+/procedure-inventory.csv

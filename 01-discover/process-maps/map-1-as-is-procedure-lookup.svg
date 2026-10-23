@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1918" height="980" viewBox="0 0 1918 980" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Map 1 — Procedure lookup (as-is)">
+<title>Map 1 — Procedure lookup (as-is)</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475467"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c01048"/></marker></defs>
+<rect width="1918" height="980" fill="#ffffff"/>
+<text x="40" y="44" font-size="14" font-weight="700" fill="#0e7490" letter-spacing="1">KAMILISHA · STAGE 1 · DISCOVER</text>
+<text x="40" y="84" font-size="30" font-weight="700" fill="#1f2a37">Map 1 — Procedure lookup (as-is)</text>
+<text x="40" y="116" font-size="16" fill="#5b6675">How a branch officer finds the current procedure today, and where wrong answers enter.</text>
+<rect x="40" y="150" width="1838" height="640" fill="#fff" stroke="#475467" stroke-width="1.5"/>
+<line x1="74" y1="150" x2="74" y2="790" stroke="#475467" stroke-width="1.5"/>
+<text transform="translate(62,470.0) rotate(-90)" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2a37">Fictional bank · branch</text>
+<rect x="74" y="150" width="1804" height="160" fill="#f6f8fa" stroke="#475467" stroke-width="1"/>
+<line x1="108" y1="150" x2="108" y2="310" stroke="#475467" stroke-width="1"/>
+<text transform="translate(96,230.0) rotate(-90)" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1f2a37">Customer</text>
+<rect x="74" y="310" width="1804" height="160" fill="#fff" stroke="#475467" stroke-width="1"/>
+<line x1="108" y1="310" x2="108" y2="470" stroke="#475467" stroke-width="1"/>
+<text transform="translate(96,390.0) rotate(-90)" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1f2a37">Branch officer</text>
+<rect x="74" y="470" width="1804" height="160" fill="#f6f8fa" stroke="#475467" stroke-width="1"/>
+<line x1="108" y1="470" x2="108" y2="630" stroke="#475467" stroke-width="1"/>
+<text transform="translate(96,550.0) rotate(-90)" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1f2a37">Colleague / supervisor</text>
+<rect x="74" y="630" width="1804" height="160" fill="#fff" stroke="#475467" stroke-width="1"/>
+<line x1="108" y1="630" x2="108" y2="790" stroke="#475467" stroke-width="1"/>
+<text transform="translate(96,710.0) rotate(-90)" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1f2a37">Back office (QA)</text>
+<path d="M252,230 L423,230 L423,363" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M450,390 L535,390" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="454" y="370" width="23" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="458" y="382" text-anchor="start" font-size="12.5" font-weight="600" fill="#1f2a37">No</text>
+<path d="M423,363 L423,326 L1183,326 L1183,353" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="459" y="310" width="188" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="463" y="322" text-anchor="start" font-size="12.5" font-weight="600" fill="#1f2a37">Yes (may be out of date)</text>
+<path d="M691,390 L776,390" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M830,390 L915,390" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="834" y="370" width="30" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="838" y="382" text-anchor="start" font-size="12.5" font-weight="600" fill="#1f2a37">Yes</text>
+<path d="M803,417 L803,550 L915,550" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="807" y="480" width="150" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="811" y="492" text-anchor="start" font-size="12.5" font-weight="600" fill="#1f2a37">No: ask a colleague</text>
+<path d="M1071,390 L1105,390" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M1071,550 L1213,550 L1213,427" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M1261,390 L1278,390 L1278,710 L1346,710" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M1400,710 L1485,710" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="1404" y="690" width="30" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="1408" y="702" text-anchor="start" font-size="12.5" font-weight="600" fill="#1f2a37">Yes</text>
+<path d="M1373,683 L1373,390 L1734,390" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="1377" y="644" width="23" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="1381" y="657" text-anchor="start" font-size="12.5" font-weight="600" fill="#1f2a37">No</text>
+<path d="M1563,747 L1563,776 L1153,776 L1153,427" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<circle cx="233.0" cy="230.0" r="19.0" fill="#fff" stroke="#475467" stroke-width="1.8"/>
+<text x="233.0" y="267.0" text-anchor="middle" font-size="12.5" fill="#1f2a37">Customer makes a</text>
+<text x="233.0" y="282.0" text-anchor="middle" font-size="12.5" fill="#1f2a37">request</text>
+<polygon points="423.0,363.0 450.0,390.0 423.0,417.0 396.0,390.0" fill="#fff" stroke="#475467" stroke-width="1.6"/>
+<path d="M414.0,381.0 L432.0,399.0 M432.0,381.0 L414.0,399.0" stroke="#475467" stroke-width="3"/>
+<rect x="352" y="422" width="141" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="423" y="435" text-anchor="middle" font-size="12.5" font-weight="400" fill="#1f2a37">Sure of the current</text>
+<rect x="384" y="438" width="78" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="423" y="450" text-anchor="middle" font-size="12.5" font-weight="400" fill="#1f2a37">procedure?</text>
+<rect x="535.0" y="353.0" width="156" height="74" rx="10" fill="#fff" stroke="#475467" stroke-width="1.6"/>
+<text x="613.0" y="387" text-anchor="middle" font-size="13" fill="#1f2a37">Search intranet for</text>
+<text x="613.0" y="403" text-anchor="middle" font-size="13" fill="#1f2a37">the right circular</text>
+<rect x="653.0" y="343.0" width="34" height="18" rx="9" fill="#c01048"/><text x="670.0" y="356.0" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">P6</text>
+<polygon points="803.0,363.0 830.0,390.0 803.0,417.0 776.0,390.0" fill="#fff" stroke="#475467" stroke-width="1.6"/>
+<path d="M794.0,381.0 L812.0,399.0 M812.0,381.0 L794.0,399.0" stroke="#475467" stroke-width="3"/>
+<rect x="732" y="422" width="141" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="803" y="435" text-anchor="middle" font-size="12.5" font-weight="400" fill="#1f2a37">Right section found</text>
+<rect x="771" y="438" width="64" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="803" y="450" text-anchor="middle" font-size="12.5" font-weight="400" fill="#1f2a37">quickly?</text>
+<rect x="798.0" y="361.0" width="34" height="18" rx="9" fill="#c01048"/><text x="815.0" y="374.0" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">P6</text>
+<rect x="915.0" y="353.0" width="156" height="74" rx="10" fill="#fff" stroke="#475467" stroke-width="1.6"/>
+<text x="993.0" y="387" text-anchor="middle" font-size="13" fill="#1f2a37">Read the section in a</text>
+<text x="993.0" y="403" text-anchor="middle" font-size="13" fill="#1f2a37">20–50 page circular</text>
+<rect x="1033.0" y="343.0" width="34" height="18" rx="9" fill="#c01048"/><text x="1050.0" y="356.0" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">P7</text>
+<rect x="915.0" y="513.0" width="156" height="74" rx="10" fill="#fff" stroke="#475467" stroke-width="1.6"/>
+<text x="993.0" y="547" text-anchor="middle" font-size="13" fill="#1f2a37">Answer from memory or</text>
+<text x="993.0" y="563" text-anchor="middle" font-size="13" fill="#1f2a37">habit (kwa mazoea)</text>
+<rect x="1033.0" y="503.0" width="34" height="18" rx="9" fill="#c01048"/><text x="1050.0" y="516.0" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">P2</text>
+<rect x="995.0" y="503.0" width="34" height="18" rx="9" fill="#c01048"/><text x="1012.0" y="516.0" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">P1</text>
+<rect x="1105.0" y="353.0" width="156" height="74" rx="10" fill="#fff" stroke="#475467" stroke-width="1.6"/>
+<text x="1183.0" y="379" text-anchor="middle" font-size="13" fill="#1f2a37">Serve customer,</text>
+<text x="1183.0" y="395" text-anchor="middle" font-size="13" fill="#1f2a37">including control</text>
+<text x="1183.0" y="411" text-anchor="middle" font-size="13" fill="#1f2a37">steps</text>
+<polygon points="1373.0,683.0 1400.0,710.0 1373.0,737.0 1346.0,710.0" fill="#fff" stroke="#475467" stroke-width="1.6"/>
+<path d="M1364.0,701.0 L1382.0,719.0 M1382.0,701.0 L1364.0,719.0" stroke="#475467" stroke-width="3"/>
+<rect x="1310" y="742" width="127" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="1373" y="755" text-anchor="middle" font-size="12.5" font-weight="400" fill="#1f2a37">Error found at QA</text>
+<rect x="1344" y="758" width="57" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="1373" y="770" text-anchor="middle" font-size="12.5" font-weight="400" fill="#1f2a37">review?</text>
+<rect x="1368.0" y="681.0" width="34" height="18" rx="9" fill="#c01048"/><text x="1385.0" y="694.0" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">P3</text>
+<rect x="1485.0" y="673.0" width="156" height="74" rx="10" fill="#fff" stroke="#475467" stroke-width="1.6"/>
+<text x="1563.0" y="707" text-anchor="middle" font-size="13" fill="#1f2a37">Return for rework;</text>
+<text x="1563.0" y="723" text-anchor="middle" font-size="13" fill="#1f2a37">customer recalled</text>
+<circle cx="1753.0" cy="390.0" r="19.0" fill="#fff" stroke="#475467" stroke-width="4"/>
+<text x="1753.0" y="427.0" text-anchor="middle" font-size="12.5" fill="#1f2a37">Request completed</text>
+<rect x="383.0" y="520" width="280" height="65" fill="#fff" fill-opacity="0.94"/>
+<path d="M395.0,520 L383.0,520 L383.0,585 L395.0,585" fill="none" stroke="#5b6675" stroke-width="1.6"/>
+<text x="393.0" y="540" font-size="13" fill="#5b6675">Update emails get missed, so the</text>
+<text x="393.0" y="557" font-size="13" fill="#5b6675">colleague may answer from an old version</text>
+<text x="393.0" y="574" font-size="13" fill="#5b6675">of the circular (P1, P2).</text>
+<rect x="1123.0" y="190" width="260" height="48" fill="#fff" fill-opacity="0.94"/>
+<path d="M1135.0,190 L1123.0,190 L1123.0,238 L1135.0,238" fill="none" stroke="#5b6675" stroke-width="1.6"/>
+<text x="1133.0" y="210" font-size="13" fill="#5b6675">Two officers can give the same</text>
+<text x="1133.0" y="227" font-size="13" fill="#5b6675">customer different answers (P2).</text>
+<line x1="1753.0" y1="390.0" x2="1543.0" y2="524.0" stroke="#5b6675" stroke-width="1.2" stroke-dasharray="3,4"/>
+<rect x="1543.0" y="500" width="290" height="48" fill="#fff" fill-opacity="0.94"/>
+<path d="M1555.0,500 L1543.0,500 L1543.0,548 L1555.0,548" fill="none" stroke="#c01048" stroke-width="1.6"/>
+<text x="1553.0" y="520" font-size="13" fill="#c01048">Errors QA misses surface later as audit</text>
+<text x="1553.0" y="537" font-size="13" fill="#c01048">queries, or as a fraud loss (P3).</text>
+<line x1="40" y1="818" x2="1878" y2="818" stroke="#d0d5dd"/>
+<circle cx="52" cy="840" r="11" fill="#fff" stroke="#475467" stroke-width="1.8"/>
+<text x="70" y="845" font-size="13" fill="#1f2a37">Start</text>
+<circle cx="154.0" cy="840" r="11" fill="#fff" stroke="#475467" stroke-width="4"/>
+<text x="172.0" y="845" font-size="13" fill="#1f2a37">End</text>
+<rect x="229.6" y="828" width="40" height="24" rx="6" fill="#fff" stroke="#475467" stroke-width="1.6"/>
+<text x="279.6" y="845" font-size="13" fill="#1f2a37">Task</text>
+<polygon points="357.4,827 370.4,840 357.4,853 344.4,840" fill="#fff" stroke="#475467" stroke-width="1.6"/>
+<text x="380.4" y="845" font-size="13" fill="#1f2a37">Decision</text>
+<rect x="474.0" y="828" width="40" height="24" rx="6" fill="#fffaeb" stroke="#b54708" stroke-width="2.6"/>
+<text x="524.0" y="845" font-size="13" fill="#1f2a37">Control step (fraud / compliance check)</text>
+<rect x="840.8" y="831" width="34" height="18" rx="9" fill="#c01048"/><text x="857.8" y="844" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">P#</text>
+<text x="884.8" y="845" font-size="13" fill="#1f2a37">Pain point (see pain-point log)</text>
+<text x="40" y="888" font-size="12.5" fill="#5b6675">Fictional bank and procedures; no real bank documents or customer data. Source: practitioner interview (former branch staff, 9 years). Notation: BPMN 2.0.2 (omg.org/spec/BPMN/2.0.2).</text>
+</svg>

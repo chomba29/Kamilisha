@@ -1,0 +1,49 @@
+quarter,branch,group,procedure,audit_queries
+2025-Q4,Pilot 1,Pilot,Card replacement,1
+2025-Q4,Pilot 1,Pilot,Business account opening,1
+2025-Q4,Pilot 1,Pilot,Annual leave,0
+2025-Q4,Pilot 2,Pilot,Card replacement,1
+2025-Q4,Pilot 2,Pilot,Business account opening,0
+2025-Q4,Pilot 2,Pilot,Annual leave,0
+2025-Q4,Comparison 1,Comparison,Card replacement,0
+2025-Q4,Comparison 1,Comparison,Business account opening,0
+2025-Q4,Comparison 1,Comparison,Annual leave,0
+2025-Q4,Comparison 2,Comparison,Card replacement,1
+2025-Q4,Comparison 2,Comparison,Business account opening,4
+2025-Q4,Comparison 2,Comparison,Annual leave,1
+2026-Q1,Pilot 1,Pilot,Card replacement,0
+2026-Q1,Pilot 1,Pilot,Business account opening,1
+2026-Q1,Pilot 1,Pilot,Annual leave,0
+2026-Q1,Pilot 2,Pilot,Card replacement,1
+2026-Q1,Pilot 2,Pilot,Business account opening,0
+2026-Q1,Pilot 2,Pilot,Annual leave,0
+2026-Q1,Comparison 1,Comparison,Card replacement,0
+2026-Q1,Comparison 1,Comparison,Business account opening,0
+2026-Q1,Comparison 1,Comparison,Annual leave,0
+2026-Q1,Comparison 2,Comparison,Card replacement,0
+2026-Q1,Comparison 2,Comparison,Business account opening,0
+2026-Q1,Comparison 2,Comparison,Annual leave,0
+2026-Q2,Pilot 1,Pilot,Card replacement,2
+2026-Q2,Pilot 1,Pilot,Business account opening,0
+2026-Q2,Pilot 1,Pilot,Annual leave,0
+2026-Q2,Pilot 2,Pilot,Card replacement,1
+2026-Q2,Pilot 2,Pilot,Business account opening,1
+2026-Q2,Pilot 2,Pilot,Annual leave,0
+2026-Q2,Comparison 1,Comparison,Card replacement,0
+2026-Q2,Comparison 1,Comparison,Business account opening,1
+2026-Q2,Comparison 1,Comparison,Annual leave,0
+2026-Q2,Comparison 2,Comparison,Card replacement,0
+2026-Q2,Comparison 2,Comparison,Business account opening,1
+2026-Q2,Comparison 2,Comparison,Annual leave,0
+2026-Q3,Pilot 1,Pilot,Card replacement,0
+2026-Q3,Pilot 1,Pilot,Business account opening,0
+2026-Q3,Pilot 1,Pilot,Annual leave,0
+2026-Q3,Pilot 2,Pilot,Card replacement,0
+2026-Q3,Pilot 2,Pilot,Business account opening,1
+2026-Q3,Pilot 2,Pilot,Annual leave,0
+2026-Q3,Comparison 1,Comparison,Card replacement,1
+2026-Q3,Comparison 1,Comparison,Business account opening,1
+2026-Q3,Comparison 1,Comparison,Annual leave,0
+2026-Q3,Comparison 2,Comparison,Card replacement,0
+2026-Q3,Comparison 2,Comparison,Business account opening,2
+2026-Q3,Comparison 2,Comparison,Annual leave,0

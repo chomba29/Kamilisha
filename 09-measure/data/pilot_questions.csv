@@ -1,0 +1,337 @@
+question_id,week,branch,topic,language,status,wrong_or_unclear,owner_reviewed,owner_verdict,staff_id
+Q00001,1,Pilot 1,Card replacement,en,answered,No,No,,104
+Q00002,1,Pilot 1,Card replacement,en,answered,No,No,,108
+Q00003,1,Pilot 1,Card replacement,en,answered,No,Yes,Correct,108
+Q00004,1,Pilot 1,Business account opening,sw,answered,No,No,,111
+Q00005,1,Pilot 1,Internet banking reset,en,answered,Yes,No,,110
+Q00006,1,Pilot 1,Internet banking reset,sw,answered,No,No,,103
+Q00007,1,Pilot 1,Customer information update,en,answered,No,No,,104
+Q00008,1,Pilot 1,Internet banking reset,sw,answered,No,No,,104
+Q00009,1,Pilot 1,Internet banking reset,sw,answered,No,No,,105
+Q00010,1,Pilot 1,Standing order set-up,en,not_found,No,No,,112
+Q00011,1,Pilot 1,Account closure,en,not_found,No,No,,104
+Q00012,2,Pilot 1,Card replacement,en,answered,No,No,,107
+Q00013,2,Pilot 1,Card replacement,en,answered,No,No,,102
+Q00014,2,Pilot 1,Card replacement,en,answered,No,No,,111
+Q00015,2,Pilot 1,Card replacement,sw,answered,No,No,,107
+Q00016,2,Pilot 1,Business account opening,sw,answered,No,Yes,Correct,105
+Q00017,2,Pilot 1,Annual leave,en,answered,No,No,,108
+Q00018,2,Pilot 1,Code of conduct,sw,answered,No,Yes,Correct,108
+Q00019,2,Pilot 1,Code of conduct,en,answered,No,No,,111
+Q00020,2,Pilot 1,New card issuance,sw,answered,No,Yes,Correct,111
+Q00021,2,Pilot 1,Collateral,en,answered,No,No,,106
+Q00022,2,Pilot 1,SIM banking enrolment,en,answered,No,No,,102
+Q00023,2,Pilot 1,Collateral,sw,answered,No,No,,114
+Q00024,2,Pilot 1,New card issuance,en,answered,No,No,,112
+Q00025,2,Pilot 1,New card issuance,en,answered,No,No,,102
+Q00026,2,Pilot 1,Account closure,sw,not_found,No,No,,101
+Q00027,2,Pilot 1,Standing order set-up,en,not_found,No,No,,101
+Q00028,2,Pilot 1,Foreign currency cheque deposit,sw,not_found,No,No,,113
+Q00029,3,Pilot 1,Card replacement,en,answered,Yes,No,,112
+Q00030,3,Pilot 1,Card replacement,en,answered,Yes,No,,111
+Q00031,3,Pilot 1,Card replacement,en,answered,No,No,,107
+Q00032,3,Pilot 1,Card replacement,en,answered,Yes,Yes,Correct,102
+Q00033,3,Pilot 1,Card replacement,en,answered,No,Yes,Correct,106
+Q00034,3,Pilot 1,Card replacement,en,answered,No,No,,106
+Q00035,3,Pilot 1,Card replacement,sw,answered,No,Yes,Correct,105
+Q00036,3,Pilot 1,Card replacement,en,answered,No,No,,103
+Q00037,3,Pilot 1,Card replacement,en,answered,No,No,,107
+Q00038,3,Pilot 1,Business account opening,en,answered,No,Yes,Correct,107
+Q00039,3,Pilot 1,Business account opening,sw,answered,No,Yes,Correct,105
+Q00040,3,Pilot 1,Business account opening,en,answered,No,Yes,Correct,107
+Q00041,3,Pilot 1,SIM banking enrolment,sw,answered,No,No,,104
+Q00042,3,Pilot 1,Collateral,en,answered,No,No,,102
+Q00043,3,Pilot 1,Collateral,en,answered,No,Yes,Correct,114
+Q00044,3,Pilot 1,Individual account opening,en,answered,No,No,,113
+Q00045,3,Pilot 1,SIM banking enrolment,en,answered,No,No,,112
+Q00046,3,Pilot 1,New card issuance,sw,answered,No,Yes,Correct,114
+Q00047,3,Pilot 1,Code of conduct,en,answered,No,Yes,Correct,104
+Q00048,3,Pilot 1,Collateral,en,answered,No,No,,110
+Q00049,3,Pilot 1,Code of conduct,sw,answered,No,No,,114
+Q00050,3,Pilot 1,Individual account opening,en,answered,No,Yes,Correct,105
+Q00051,3,Pilot 1,New card issuance,en,answered,No,No,,108
+Q00052,3,Pilot 1,New card issuance,en,answered,No,No,,104
+Q00053,4,Pilot 1,Card replacement,en,answered,No,No,,109
+Q00054,4,Pilot 1,Card replacement,en,answered,No,No,,105
+Q00055,4,Pilot 1,Card replacement,sw,answered,No,No,,102
+Q00056,4,Pilot 1,Card replacement,sw,answered,No,No,,105
+Q00057,4,Pilot 1,Card replacement,en,answered,No,No,,109
+Q00058,4,Pilot 1,Card replacement,en,answered,No,Yes,Correct,102
+Q00059,4,Pilot 1,Card replacement,sw,answered,No,Yes,Correct,113
+Q00060,4,Pilot 1,Card replacement,sw,answered,No,No,,103
+Q00061,4,Pilot 1,Business account opening,sw,declined,No,No,,108
+Q00062,4,Pilot 1,Annual leave,en,declined,No,No,,107
+Q00063,4,Pilot 1,SIM banking enrolment,en,answered,No,No,,109
+Q00064,4,Pilot 1,SIM banking enrolment,en,answered,No,No,,108
+Q00065,4,Pilot 1,Customer information update,en,answered,No,No,,102
+Q00066,4,Pilot 1,Salary advance,en,answered,No,No,,109
+Q00067,4,Pilot 1,Internet banking reset,sw,answered,No,Yes,Correct,101
+Q00068,4,Pilot 1,SIM banking enrolment,en,answered,No,No,,101
+Q00069,4,Pilot 1,Customer information update,en,answered,No,Yes,Incorrect,104
+Q00070,4,Pilot 1,Salary advance,en,answered,No,Yes,Correct,105
+Q00071,4,Pilot 1,Customer information update,en,answered,No,No,,110
+Q00072,4,Pilot 1,Salary advance,en,answered,No,No,,109
+Q00073,4,Pilot 1,Collateral,sw,answered,No,No,,114
+Q00074,4,Pilot 1,New card issuance,en,answered,No,Yes,Correct,103
+Q00075,4,Pilot 1,Code of conduct,sw,answered,No,No,,109
+Q00076,4,Pilot 1,Collateral,en,answered,No,No,,104
+Q00077,4,Pilot 1,Collateral,sw,answered,No,No,,113
+Q00078,4,Pilot 1,Foreign currency cheque deposit,en,not_found,No,No,,102
+Q00079,4,Pilot 1,Account closure,sw,not_found,No,No,,108
+Q00080,5,Pilot 1,Card replacement,en,answered,No,No,,112
+Q00081,5,Pilot 1,Card replacement,sw,answered,No,No,,104
+Q00082,5,Pilot 1,Card replacement,sw,answered,Yes,No,,103
+Q00083,5,Pilot 1,Card replacement,sw,answered,No,Yes,Correct,107
+Q00084,5,Pilot 1,Card replacement,sw,answered,No,No,,114
+Q00085,5,Pilot 1,Card replacement,en,answered,Yes,Yes,Incorrect,103
+Q00086,5,Pilot 1,Card replacement,en,answered,Yes,Yes,Correct,104
+Q00087,5,Pilot 1,Card replacement,en,answered,No,No,,108
+Q00088,5,Pilot 1,Card replacement,sw,answered,No,Yes,Correct,113
+Q00089,5,Pilot 1,Card replacement,en,answered,No,No,,110
+Q00090,5,Pilot 1,Card replacement,en,answered,Yes,Yes,Correct,114
+Q00091,5,Pilot 1,Card replacement,en,answered,No,No,,107
+Q00092,5,Pilot 1,Business account opening,sw,answered,No,No,,108
+Q00093,5,Pilot 1,Business account opening,sw,answered,No,No,,113
+Q00094,5,Pilot 1,Business account opening,en,answered,No,Yes,Correct,110
+Q00095,5,Pilot 1,Business account opening,en,answered,No,No,,107
+Q00096,5,Pilot 1,SIM banking enrolment,sw,answered,No,No,,102
+Q00097,5,Pilot 1,Customer information update,en,answered,No,No,,107
+Q00098,5,Pilot 1,Loan origination,en,answered,No,No,,112
+Q00099,5,Pilot 1,Customer information update,sw,answered,No,No,,112
+Q00100,5,Pilot 1,Code of conduct,en,answered,No,No,,111
+Q00101,5,Pilot 1,Individual account opening,en,answered,No,No,,102
+Q00102,5,Pilot 1,Internet banking reset,en,answered,No,No,,109
+Q00103,5,Pilot 1,Individual account opening,sw,answered,No,No,,109
+Q00104,5,Pilot 1,SIM banking enrolment,en,answered,No,No,,112
+Q00105,5,Pilot 1,SIM banking enrolment,en,answered,No,No,,102
+Q00106,5,Pilot 1,Code of conduct,sw,answered,No,No,,112
+Q00107,5,Pilot 1,Individual account opening,en,answered,No,Yes,Correct,103
+Q00108,5,Pilot 1,Foreign currency cheque deposit,sw,not_found,No,No,,107
+Q00109,5,Pilot 1,Fixed deposit account opening,sw,not_found,No,No,,107
+Q00110,5,Pilot 1,Account closure,en,not_found,No,No,,101
+Q00111,5,Pilot 1,Fixed deposit account opening,sw,not_found,No,No,,106
+Q00112,5,Pilot 1,Account closure,en,not_found,No,No,,109
+Q00113,6,Pilot 1,Card replacement,en,answered,No,No,,107
+Q00114,6,Pilot 1,Card replacement,en,answered,No,No,,109
+Q00115,6,Pilot 1,Card replacement,sw,declined,No,No,,114
+Q00116,6,Pilot 1,Card replacement,sw,answered,No,No,,113
+Q00117,6,Pilot 1,Card replacement,sw,answered,No,No,,111
+Q00118,6,Pilot 1,Card replacement,sw,answered,No,No,,111
+Q00119,6,Pilot 1,Card replacement,en,answered,No,No,,113
+Q00120,6,Pilot 1,Card replacement,sw,answered,No,No,,103
+Q00121,6,Pilot 1,Card replacement,en,answered,No,No,,104
+Q00122,6,Pilot 1,Card replacement,en,answered,No,No,,106
+Q00123,6,Pilot 1,Business account opening,sw,answered,No,No,,113
+Q00124,6,Pilot 1,New card issuance,sw,answered,No,No,,110
+Q00125,6,Pilot 1,Loan origination,en,answered,No,No,,107
+Q00126,6,Pilot 1,Collateral,en,answered,No,No,,103
+Q00127,6,Pilot 1,Loan origination,en,answered,No,No,,106
+Q00128,6,Pilot 1,New card issuance,sw,answered,No,No,,103
+Q00129,6,Pilot 1,New card issuance,en,answered,No,No,,107
+Q00130,6,Pilot 1,Internet banking reset,en,answered,No,No,,110
+Q00131,6,Pilot 1,Collateral,en,answered,No,No,,111
+Q00132,6,Pilot 1,Foreign currency cheque deposit,en,not_found,No,No,,106
+Q00133,6,Pilot 1,Account closure,en,not_found,No,No,,108
+Q00134,6,Pilot 1,Foreign currency cheque deposit,en,not_found,No,No,,107
+Q00135,6,Pilot 1,Standing order set-up,en,not_found,No,No,,112
+Q00136,7,Pilot 1,Card replacement,sw,answered,No,No,,101
+Q00137,7,Pilot 1,Card replacement,en,answered,No,No,,112
+Q00138,7,Pilot 1,Card replacement,en,answered,No,Yes,Correct,108
+Q00139,7,Pilot 1,Card replacement,sw,answered,No,No,,104
+Q00140,7,Pilot 1,Card replacement,en,answered,No,No,,112
+Q00141,7,Pilot 1,Card replacement,sw,answered,No,Yes,Correct,108
+Q00142,7,Pilot 1,Card replacement,sw,answered,No,No,,103
+Q00143,7,Pilot 1,Card replacement,en,answered,No,No,,102
+Q00144,7,Pilot 1,Card replacement,sw,answered,Yes,No,,103
+Q00145,7,Pilot 1,Card replacement,en,answered,No,No,,114
+Q00146,7,Pilot 1,Card replacement,en,answered,No,No,,101
+Q00147,7,Pilot 1,Card replacement,sw,answered,No,No,,113
+Q00148,7,Pilot 1,Card replacement,en,answered,No,No,,114
+Q00149,7,Pilot 1,Business account opening,en,answered,No,Yes,Correct,113
+Q00150,7,Pilot 1,Business account opening,en,answered,No,No,,109
+Q00151,7,Pilot 1,Business account opening,en,answered,No,No,,106
+Q00152,7,Pilot 1,Business account opening,en,answered,No,No,,109
+Q00153,7,Pilot 1,Business account opening,en,answered,No,No,,101
+Q00154,7,Pilot 1,Business account opening,en,answered,No,No,,104
+Q00155,7,Pilot 1,Business account opening,en,answered,No,No,,111
+Q00156,7,Pilot 1,Business account opening,sw,answered,No,No,,111
+Q00157,7,Pilot 1,Customer information update,en,answered,No,Yes,Correct,102
+Q00158,7,Pilot 1,Customer information update,en,answered,No,No,,110
+Q00159,7,Pilot 1,Customer information update,en,answered,No,No,,102
+Q00160,7,Pilot 1,Code of conduct,en,answered,No,No,,109
+Q00161,7,Pilot 1,Internet banking reset,en,answered,No,No,,114
+Q00162,7,Pilot 1,Collateral,en,answered,No,No,,101
+Q00163,7,Pilot 1,Collateral,en,answered,No,No,,107
+Q00164,7,Pilot 1,Individual account opening,sw,answered,No,No,,101
+Q00165,7,Pilot 1,Salary advance,sw,answered,No,No,,102
+Q00166,7,Pilot 1,SIM banking enrolment,sw,answered,No,No,,104
+Q00167,7,Pilot 1,New card issuance,sw,answered,No,No,,111
+Q00168,7,Pilot 1,Internet banking reset,en,answered,Yes,No,,109
+Q00169,7,Pilot 1,New card issuance,sw,answered,No,No,,109
+Q00170,7,Pilot 1,Standing order set-up,en,not_found,No,No,,106
+Q00171,7,Pilot 1,Standing order set-up,sw,not_found,No,No,,107
+Q00172,7,Pilot 1,Fixed deposit account opening,sw,not_found,No,No,,109
+Q00173,8,Pilot 1,Card replacement,en,answered,No,Yes,Correct,101
+Q00174,8,Pilot 1,Card replacement,en,answered,No,No,,101
+Q00175,8,Pilot 1,Card replacement,sw,answered,No,Yes,Correct,113
+Q00176,8,Pilot 1,Card replacement,en,answered,No,No,,102
+Q00177,8,Pilot 1,Card replacement,sw,answered,No,No,,110
+Q00178,8,Pilot 1,Card replacement,en,answered,No,No,,105
+Q00179,8,Pilot 1,Card replacement,en,answered,No,No,,112
+Q00180,8,Pilot 1,Card replacement,en,answered,No,No,,113
+Q00181,8,Pilot 1,Card replacement,sw,answered,No,No,,109
+Q00182,8,Pilot 1,Business account opening,en,answered,No,No,,114
+Q00183,8,Pilot 1,Annual leave,en,answered,Yes,No,,102
+Q00184,8,Pilot 1,Loan origination,en,answered,No,No,,114
+Q00185,8,Pilot 1,Collateral,en,answered,No,No,,103
+Q00186,8,Pilot 1,Code of conduct,sw,answered,No,No,,109
+Q00187,8,Pilot 1,SIM banking enrolment,en,answered,No,No,,112
+Q00188,8,Pilot 1,Loan origination,sw,answered,No,No,,104
+Q00189,8,Pilot 1,Collateral,sw,answered,No,Yes,Correct,111
+Q00190,8,Pilot 1,Internet banking reset,sw,answered,No,No,,107
+Q00191,8,Pilot 1,Internet banking reset,sw,answered,No,No,,103
+Q00192,8,Pilot 1,Internet banking reset,sw,answered,No,No,,111
+Q00193,8,Pilot 1,Collateral,en,answered,No,No,,105
+Q00194,8,Pilot 1,New card issuance,en,answered,No,No,,106
+Q00195,8,Pilot 1,Customer information update,en,answered,No,No,,112
+Q00196,8,Pilot 1,Collateral,en,answered,No,Yes,Correct,113
+Q00197,8,Pilot 1,Salary advance,en,answered,No,No,,110
+Q00198,8,Pilot 1,SIM banking enrolment,en,answered,No,No,,108
+Q00199,8,Pilot 1,Fixed deposit account opening,sw,not_found,No,No,,107
+Q00200,8,Pilot 1,Fixed deposit account opening,en,not_found,No,No,,109
+Q00201,8,Pilot 1,Foreign currency cheque deposit,sw,not_found,No,No,,114
+Q00202,8,Pilot 1,Foreign currency cheque deposit,sw,not_found,No,No,,113
+Q00203,8,Pilot 1,Foreign currency cheque deposit,en,not_found,No,No,,112
+Q00204,1,Pilot 2,Card replacement,en,answered,No,No,,204
+Q00205,1,Pilot 2,Internet banking reset,sw,answered,No,No,,209
+Q00206,1,Pilot 2,Internet banking reset,en,answered,No,Yes,Correct,205
+Q00207,1,Pilot 2,Account closure,en,not_found,No,No,,205
+Q00208,1,Pilot 2,Fixed deposit account opening,en,not_found,No,No,,210
+Q00209,2,Pilot 2,Card replacement,en,answered,No,No,,206
+Q00210,2,Pilot 2,Business account opening,en,answered,No,No,,207
+Q00211,2,Pilot 2,Business account opening,sw,answered,No,No,,212
+Q00212,2,Pilot 2,SIM banking enrolment,en,answered,No,No,,203
+Q00213,2,Pilot 2,Internet banking reset,sw,answered,No,No,,208
+Q00214,2,Pilot 2,New card issuance,en,answered,No,No,,206
+Q00215,2,Pilot 2,Fixed deposit account opening,sw,not_found,No,No,,203
+Q00216,2,Pilot 2,SWIFT transfer abroad,en,not_found,No,No,,203
+Q00217,2,Pilot 2,Foreign currency cheque deposit,en,not_found,No,No,,203
+Q00218,3,Pilot 2,Card replacement,en,answered,No,No,,211
+Q00219,3,Pilot 2,Card replacement,en,answered,No,Yes,Correct,212
+Q00220,3,Pilot 2,Card replacement,en,answered,No,Yes,Correct,208
+Q00221,3,Pilot 2,Business account opening,en,answered,No,No,,201
+Q00222,3,Pilot 2,Loan origination,en,answered,No,No,,208
+Q00223,3,Pilot 2,Customer information update,en,answered,No,No,,205
+Q00224,3,Pilot 2,Code of conduct,sw,answered,No,No,,201
+Q00225,3,Pilot 2,Foreign currency cheque deposit,en,not_found,No,No,,205
+Q00226,4,Pilot 2,Card replacement,en,answered,No,Yes,Correct,202
+Q00227,4,Pilot 2,Card replacement,en,answered,No,No,,210
+Q00228,4,Pilot 2,Annual leave,en,answered,No,No,,212
+Q00229,4,Pilot 2,Salary advance,sw,answered,No,No,,211
+Q00230,4,Pilot 2,Collateral,en,answered,No,No,,211
+Q00231,4,Pilot 2,Salary advance,en,answered,No,Yes,Correct,210
+Q00232,4,Pilot 2,Customer information update,en,answered,No,No,,203
+Q00233,4,Pilot 2,Loan origination,en,answered,No,No,,209
+Q00234,4,Pilot 2,Code of conduct,sw,answered,No,No,,210
+Q00235,4,Pilot 2,Foreign currency cheque deposit,sw,not_found,No,No,,204
+Q00236,4,Pilot 2,Foreign currency cheque deposit,en,not_found,No,No,,207
+Q00237,5,Pilot 2,Card replacement,sw,answered,No,No,,201
+Q00238,5,Pilot 2,Card replacement,en,answered,No,No,,207
+Q00239,5,Pilot 2,Card replacement,en,answered,No,No,,211
+Q00240,5,Pilot 2,Business account opening,en,answered,No,No,,204
+Q00241,5,Pilot 2,Annual leave,en,answered,Yes,Yes,Correct,211
+Q00242,5,Pilot 2,Loan origination,sw,answered,No,No,,205
+Q00243,5,Pilot 2,SIM banking enrolment,sw,answered,No,No,,201
+Q00244,5,Pilot 2,Loan origination,en,answered,No,No,,202
+Q00245,5,Pilot 2,Internet banking reset,en,answered,No,No,,213
+Q00246,5,Pilot 2,Salary advance,en,answered,No,No,,208
+Q00247,5,Pilot 2,Salary advance,en,answered,No,No,,203
+Q00248,5,Pilot 2,SIM banking enrolment,en,answered,No,No,,210
+Q00249,5,Pilot 2,Collateral,en,answered,No,No,,212
+Q00250,5,Pilot 2,Collateral,en,answered,No,No,,203
+Q00251,5,Pilot 2,Collateral,en,answered,No,Yes,Correct,202
+Q00252,5,Pilot 2,Individual account opening,sw,answered,No,Yes,Correct,210
+Q00253,5,Pilot 2,Fixed deposit account opening,en,not_found,No,No,,209
+Q00254,5,Pilot 2,Standing order set-up,en,not_found,No,No,,213
+Q00255,5,Pilot 2,Fixed deposit account opening,en,not_found,No,No,,208
+Q00256,5,Pilot 2,Foreign currency cheque deposit,sw,not_found,No,No,,205
+Q00257,5,Pilot 2,Fixed deposit account opening,en,not_found,No,No,,204
+Q00258,5,Pilot 2,SWIFT transfer abroad,en,not_found,No,No,,210
+Q00259,6,Pilot 2,Card replacement,sw,answered,No,No,,201
+Q00260,6,Pilot 2,Card replacement,sw,answered,No,No,,201
+Q00261,6,Pilot 2,Card replacement,sw,answered,No,Yes,Correct,208
+Q00262,6,Pilot 2,Card replacement,sw,answered,No,No,,205
+Q00263,6,Pilot 2,Card replacement,en,answered,No,No,,211
+Q00264,6,Pilot 2,Business account opening,en,answered,No,No,,208
+Q00265,6,Pilot 2,Business account opening,sw,answered,No,No,,206
+Q00266,6,Pilot 2,Business account opening,sw,answered,No,No,,204
+Q00267,6,Pilot 2,Annual leave,en,answered,No,No,,211
+Q00268,6,Pilot 2,Customer information update,en,answered,No,No,,213
+Q00269,6,Pilot 2,Customer information update,sw,answered,No,No,,205
+Q00270,6,Pilot 2,SIM banking enrolment,en,answered,No,Yes,Correct,207
+Q00271,6,Pilot 2,Customer information update,en,answered,No,Yes,Correct,201
+Q00272,6,Pilot 2,Salary advance,sw,declined,No,No,,202
+Q00273,6,Pilot 2,SIM banking enrolment,en,answered,No,No,,202
+Q00274,6,Pilot 2,Internet banking reset,sw,answered,No,No,,204
+Q00275,6,Pilot 2,Individual account opening,sw,answered,No,Yes,Correct,201
+Q00276,6,Pilot 2,Standing order set-up,en,not_found,No,No,,208
+Q00277,6,Pilot 2,Standing order set-up,en,not_found,No,No,,204
+Q00278,7,Pilot 2,Card replacement,en,answered,No,No,,211
+Q00279,7,Pilot 2,Card replacement,sw,answered,No,Yes,Correct,210
+Q00280,7,Pilot 2,Card replacement,sw,answered,No,Yes,Correct,206
+Q00281,7,Pilot 2,Card replacement,en,answered,No,No,,206
+Q00282,7,Pilot 2,Card replacement,sw,answered,No,Yes,Correct,209
+Q00283,7,Pilot 2,Card replacement,sw,answered,No,Yes,Correct,208
+Q00284,7,Pilot 2,Card replacement,sw,answered,No,No,,203
+Q00285,7,Pilot 2,Card replacement,en,answered,No,No,,201
+Q00286,7,Pilot 2,Business account opening,en,answered,No,No,,207
+Q00287,7,Pilot 2,Business account opening,en,answered,No,No,,212
+Q00288,7,Pilot 2,Business account opening,en,answered,No,Yes,Correct,212
+Q00289,7,Pilot 2,Business account opening,sw,need_info,No,No,,204
+Q00290,7,Pilot 2,Customer information update,sw,answered,No,Yes,Correct,213
+Q00291,7,Pilot 2,Internet banking reset,en,answered,No,Yes,Correct,202
+Q00292,7,Pilot 2,New card issuance,sw,answered,No,Yes,Correct,206
+Q00293,7,Pilot 2,SIM banking enrolment,sw,answered,No,No,,207
+Q00294,7,Pilot 2,Customer information update,en,answered,No,No,,209
+Q00295,7,Pilot 2,Customer information update,sw,answered,Yes,No,,209
+Q00296,7,Pilot 2,Individual account opening,en,answered,No,No,,209
+Q00297,7,Pilot 2,SIM banking enrolment,en,answered,No,No,,201
+Q00298,7,Pilot 2,Individual account opening,en,answered,No,Yes,Correct,205
+Q00299,7,Pilot 2,Fixed deposit account opening,sw,not_found,No,No,,213
+Q00300,7,Pilot 2,Foreign currency cheque deposit,en,not_found,No,No,,212
+Q00301,7,Pilot 2,Foreign currency cheque deposit,sw,not_found,No,No,,213
+Q00302,7,Pilot 2,SWIFT transfer abroad,en,not_found,No,No,,203
+Q00303,7,Pilot 2,SWIFT transfer abroad,sw,not_found,No,No,,207
+Q00304,7,Pilot 2,Fixed deposit account opening,sw,not_found,No,No,,203
+Q00305,8,Pilot 2,Card replacement,sw,answered,No,No,,206
+Q00306,8,Pilot 2,Card replacement,en,answered,Yes,No,,202
+Q00307,8,Pilot 2,Card replacement,en,answered,No,No,,209
+Q00308,8,Pilot 2,Card replacement,en,answered,No,No,,205
+Q00309,8,Pilot 2,Card replacement,sw,answered,No,No,,201
+Q00310,8,Pilot 2,Card replacement,sw,answered,No,No,,207
+Q00311,8,Pilot 2,Card replacement,en,answered,No,Yes,Correct,208
+Q00312,8,Pilot 2,Card replacement,sw,answered,No,No,,212
+Q00313,8,Pilot 2,Card replacement,en,answered,No,No,,213
+Q00314,8,Pilot 2,Card replacement,en,answered,No,No,,210
+Q00315,8,Pilot 2,Card replacement,en,declined,No,No,,210
+Q00316,8,Pilot 2,Card replacement,en,answered,No,Yes,Correct,206
+Q00317,8,Pilot 2,Business account opening,en,answered,No,No,,201
+Q00318,8,Pilot 2,Business account opening,sw,answered,No,No,,204
+Q00319,8,Pilot 2,Business account opening,en,answered,No,No,,201
+Q00320,8,Pilot 2,Annual leave,sw,answered,No,Yes,Correct,213
+Q00321,8,Pilot 2,New card issuance,sw,answered,No,No,,208
+Q00322,8,Pilot 2,SIM banking enrolment,en,answered,No,No,,206
+Q00323,8,Pilot 2,Internet banking reset,en,answered,No,No,,208
+Q00324,8,Pilot 2,New card issuance,en,answered,No,No,,204
+Q00325,8,Pilot 2,Customer information update,en,answered,No,No,,201
+Q00326,8,Pilot 2,Salary advance,en,answered,No,No,,205
+Q00327,8,Pilot 2,Internet banking reset,sw,answered,No,No,,206
+Q00328,8,Pilot 2,SIM banking enrolment,en,answered,No,No,,205
+Q00329,8,Pilot 2,Salary advance,sw,answered,No,No,,209
+Q00330,8,Pilot 2,Internet banking reset,sw,answered,No,Yes,Correct,211
+Q00331,8,Pilot 2,Collateral,en,answered,No,No,,207
+Q00332,8,Pilot 2,Collateral,en,answered,No,Yes,Correct,208
+Q00333,8,Pilot 2,Code of conduct,en,answered,No,No,,207
+Q00334,8,Pilot 2,Individual account opening,en,answered,No,No,,207
+Q00335,8,Pilot 2,SWIFT transfer abroad,en,not_found,No,No,,201
+Q00336,8,Pilot 2,SWIFT transfer abroad,sw,not_found,No,No,,206

@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2488" height="1140" viewBox="0 0 2488 1140" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Map 2 — Card replacement (as-is)">
+<title>Map 2 — Card replacement (as-is)</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475467"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c01048"/></marker></defs>
+<rect width="2488" height="1140" fill="#ffffff"/>
+<text x="40" y="44" font-size="14" font-weight="700" fill="#0e7490" letter-spacing="1">KAMILISHA · STAGE 1 · DISCOVER</text>
+<text x="40" y="84" font-size="30" font-weight="700" fill="#1f2a37">Map 2 — Card replacement (as-is)</text>
+<text x="40" y="116" font-size="16" fill="#5b6675">Four control steps protect the bank. The signed blocking form is the one skipped when staff follow the old circular.</text>
+<rect x="40" y="150" width="2408" height="800" fill="#fff" stroke="#475467" stroke-width="1.5"/>
+<line x1="74" y1="150" x2="74" y2="950" stroke="#475467" stroke-width="1.5"/>
+<text transform="translate(62,550.0) rotate(-90)" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2a37">Fictional bank · branch</text>
+<rect x="74" y="150" width="2374" height="160" fill="#f6f8fa" stroke="#475467" stroke-width="1"/>
+<line x1="108" y1="150" x2="108" y2="310" stroke="#475467" stroke-width="1"/>
+<text transform="translate(96,230.0) rotate(-90)" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1f2a37">Customer</text>
+<rect x="74" y="310" width="2374" height="160" fill="#fff" stroke="#475467" stroke-width="1"/>
+<line x1="108" y1="310" x2="108" y2="470" stroke="#475467" stroke-width="1"/>
+<text transform="translate(96,390.0) rotate(-90)" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1f2a37">Branch officer</text>
+<rect x="74" y="470" width="2374" height="160" fill="#f6f8fa" stroke="#475467" stroke-width="1"/>
+<line x1="108" y1="470" x2="108" y2="630" stroke="#475467" stroke-width="1"/>
+<text transform="translate(96,550.0) rotate(-90)" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1f2a37">Supervisor</text>
+<rect x="74" y="630" width="2374" height="160" fill="#fff" stroke="#475467" stroke-width="1"/>
+<line x1="108" y1="630" x2="108" y2="790" stroke="#475467" stroke-width="1"/>
+<text transform="translate(96,710.0) rotate(-90)" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1f2a37">Card centre</text>
+<rect x="74" y="790" width="2374" height="160" fill="#f6f8fa" stroke="#475467" stroke-width="1"/>
+<line x1="108" y1="790" x2="108" y2="950" stroke="#475467" stroke-width="1"/>
+<text transform="translate(96,870.0) rotate(-90)" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1f2a37">Back office (QA)</text>
+<path d="M252,230 L423,230 L423,353" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M501,390 L586,390" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M640,390 L725,390" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="644" y="370" width="98" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="648" y="382" text-anchor="start" font-size="12.5" font-weight="600" fill="#1f2a37">Current (v2)</text>
+<path d="M613,417 L613,452 L993,452 L993,427" fill="none" stroke="#c01048" stroke-width="2.2" stroke-dasharray="7,5" marker-end="url(#arrR)"/>
+<rect x="713" y="432" width="218" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="717" y="445" text-anchor="start" font-size="12.5" font-weight="600" fill="#c01048">Habit (old v1): form skipped</text>
+<path d="M881,390 L915,390" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M1071,390 L1105,390" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M1261,390 L1373,390 L1373,523" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M1373,577 L1373,710 L1485,710" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="1377" y="588" width="30" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="1381" y="600" text-anchor="start" font-size="12.5" font-weight="600" fill="#1f2a37">Yes</text>
+<path d="M1346,550 L1183,550 L1183,427" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="1189" y="530" width="90" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="1193" y="542" text-anchor="start" font-size="12.5" font-weight="600" fill="#1f2a37">No: correct</text>
+<path d="M1563,747 L1563,870 L1726,870" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M1780,870 L1865,870" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="1784" y="850" width="23" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="1788" y="862" text-anchor="start" font-size="12.5" font-weight="600" fill="#1f2a37">No</text>
+<path d="M1753,843 L1753,390 L2055,390" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="1757" y="804" width="30" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="1761" y="817" text-anchor="start" font-size="12.5" font-weight="600" fill="#1f2a37">Yes</text>
+<path d="M2021,870 L2133,870 L2133,427" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M2211,390 L2304,390" fill="none" stroke="#475467" stroke-width="1.6" marker-end="url(#arr)"/>
+<circle cx="233.0" cy="230.0" r="19.0" fill="#fff" stroke="#475467" stroke-width="1.8"/>
+<text x="233.0" y="267.0" text-anchor="middle" font-size="12.5" fill="#1f2a37">Asks to replace a</text>
+<text x="233.0" y="282.0" text-anchor="middle" font-size="12.5" fill="#1f2a37">lost or damaged</text>
+<text x="233.0" y="297.0" text-anchor="middle" font-size="12.5" fill="#1f2a37">card</text>
+<rect x="345.0" y="353.0" width="156" height="74" rx="10" fill="#fffaeb" stroke="#b54708" stroke-width="2.6"/>
+<text x="423.0" y="387" text-anchor="middle" font-size="13" fill="#1f2a37">Verify customer</text>
+<text x="423.0" y="403" text-anchor="middle" font-size="13" fill="#1f2a37">identity</text>
+<rect x="351.0" y="343.0" width="66" height="18" rx="9" fill="#b54708"/><text x="384.0" y="356.0" text-anchor="middle" font-size="10.5" font-weight="700" fill="#fff" letter-spacing="0.5">CONTROL</text>
+<polygon points="613.0,363.0 640.0,390.0 613.0,417.0 586.0,390.0" fill="#fff" stroke="#475467" stroke-width="1.6"/>
+<path d="M604.0,381.0 L622.0,399.0 M622.0,381.0 L604.0,399.0" stroke="#475467" stroke-width="3"/>
+<rect x="542" y="422" width="141" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="613" y="435" text-anchor="middle" font-size="12.5" font-weight="400" fill="#1f2a37">Which circular does</text>
+<rect x="542" y="438" width="141" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="613" y="450" text-anchor="middle" font-size="12.5" font-weight="400" fill="#1f2a37">the officer follow?</text>
+<rect x="608.0" y="361.0" width="34" height="18" rx="9" fill="#c01048"/><text x="625.0" y="374.0" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">P2</text>
+<rect x="570.0" y="361.0" width="34" height="18" rx="9" fill="#c01048"/><text x="587.0" y="374.0" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">P1</text>
+<rect x="725.0" y="353.0" width="156" height="74" rx="10" fill="#fffaeb" stroke="#b54708" stroke-width="2.6"/>
+<text x="803.0" y="387" text-anchor="middle" font-size="13" fill="#1f2a37">Obtain signed</text>
+<text x="803.0" y="403" text-anchor="middle" font-size="13" fill="#1f2a37">card-blocking form</text>
+<rect x="731.0" y="343.0" width="66" height="18" rx="9" fill="#b54708"/><text x="764.0" y="356.0" text-anchor="middle" font-size="10.5" font-weight="700" fill="#fff" letter-spacing="0.5">CONTROL</text>
+<rect x="843.0" y="343.0" width="34" height="18" rx="9" fill="#c01048"/><text x="860.0" y="356.0" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">P4</text>
+<rect x="915.0" y="353.0" width="156" height="74" rx="10" fill="#fffaeb" stroke="#b54708" stroke-width="2.6"/>
+<text x="993.0" y="387" text-anchor="middle" font-size="13" fill="#1f2a37">Block old card on the</text>
+<text x="993.0" y="403" text-anchor="middle" font-size="13" fill="#1f2a37">card system</text>
+<rect x="921.0" y="343.0" width="66" height="18" rx="9" fill="#b54708"/><text x="954.0" y="356.0" text-anchor="middle" font-size="10.5" font-weight="700" fill="#fff" letter-spacing="0.5">CONTROL</text>
+<rect x="1105.0" y="353.0" width="156" height="74" rx="10" fill="#fff" stroke="#475467" stroke-width="1.6"/>
+<text x="1183.0" y="387" text-anchor="middle" font-size="13" fill="#1f2a37">Capture replacement</text>
+<text x="1183.0" y="403" text-anchor="middle" font-size="13" fill="#1f2a37">request; charge fee</text>
+<polygon points="1373.0,523.0 1400.0,550.0 1373.0,577.0 1346.0,550.0" fill="#fff" stroke="#475467" stroke-width="1.6"/>
+<path d="M1364.0,541.0 L1382.0,559.0 M1382.0,541.0 L1364.0,559.0" stroke="#475467" stroke-width="3"/>
+<rect x="1334" y="582" width="78" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="1373" y="595" text-anchor="middle" font-size="12.5" font-weight="400" fill="#1f2a37">Authorise?</text>
+<rect x="1485.0" y="673.0" width="156" height="74" rx="10" fill="#fff" stroke="#475467" stroke-width="1.6"/>
+<text x="1563.0" y="715" text-anchor="middle" font-size="13" fill="#1f2a37">Produce new card</text>
+<polygon points="1753.0,843.0 1780.0,870.0 1753.0,897.0 1726.0,870.0" fill="#fff" stroke="#475467" stroke-width="1.6"/>
+<path d="M1744.0,861.0 L1762.0,879.0 M1762.0,861.0 L1744.0,879.0" stroke="#475467" stroke-width="3"/>
+<rect x="1686" y="902" width="134" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="1753" y="915" text-anchor="middle" font-size="12.5" font-weight="400" fill="#1f2a37">Old card confirmed</text>
+<rect x="1682" y="918" width="141" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="1753" y="930" text-anchor="middle" font-size="12.5" font-weight="400" fill="#1f2a37">blocked and form on</text>
+<rect x="1732" y="932" width="43" height="18" fill="#ffffff" fill-opacity="0.92"/><text x="1753" y="945" text-anchor="middle" font-size="12.5" font-weight="400" fill="#1f2a37">file?</text>
+<rect x="1748.0" y="841.0" width="34" height="18" rx="9" fill="#c01048"/><text x="1765.0" y="854.0" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">P3</text>
+<rect x="1865.0" y="833.0" width="156" height="74" rx="10" fill="#fff" stroke="#475467" stroke-width="1.6"/>
+<text x="1943.0" y="867" text-anchor="middle" font-size="13" fill="#1f2a37">Block card; raise</text>
+<text x="1943.0" y="883" text-anchor="middle" font-size="13" fill="#1f2a37">exception to branch</text>
+<rect x="2055.0" y="353.0" width="156" height="74" rx="10" fill="#fffaeb" stroke="#b54708" stroke-width="2.6"/>
+<text x="2133.0" y="387" text-anchor="middle" font-size="13" fill="#1f2a37">Hand over new card</text>
+<text x="2133.0" y="403" text-anchor="middle" font-size="13" fill="#1f2a37">after ID check</text>
+<rect x="2061.0" y="343.0" width="66" height="18" rx="9" fill="#b54708"/><text x="2094.0" y="356.0" text-anchor="middle" font-size="10.5" font-weight="700" fill="#fff" letter-spacing="0.5">CONTROL</text>
+<circle cx="2323.0" cy="390.0" r="19.0" fill="#fff" stroke="#475467" stroke-width="4"/>
+<text x="2323.0" y="427.0" text-anchor="middle" font-size="12.5" fill="#1f2a37">Replacement</text>
+<text x="2323.0" y="442.0" text-anchor="middle" font-size="12.5" fill="#1f2a37">complete</text>
+<line x1="613.0" y1="390.0" x2="353.0" y2="522.5" stroke="#5b6675" stroke-width="1.2" stroke-dasharray="3,4"/>
+<rect x="353.0" y="490" width="360" height="65" fill="#fff" fill-opacity="0.94"/>
+<path d="M365.0,490 L353.0,490 L353.0,555 L365.0,555" fill="none" stroke="#5b6675" stroke-width="1.6"/>
+<text x="363.0" y="510" font-size="13" fill="#5b6675">Old circular (v1): block on the system, no form</text>
+<text x="363.0" y="527" font-size="13" fill="#5b6675">needed. Current circular (v2): signed blocking form</text>
+<text x="363.0" y="544" font-size="13" fill="#5b6675">first, then block. Habit still follows v1 (P1, P2).</text>
+<rect x="773.0" y="492" width="330" height="82" fill="#fff" fill-opacity="0.94"/>
+<path d="M785.0,492 L773.0,492 L773.0,574 L785.0,574" fill="none" stroke="#c01048" stroke-width="1.6"/>
+<text x="783.0" y="512" font-size="13" fill="#c01048">Skipping the form (P4) is caught by QA, later</text>
+<text x="783.0" y="529" font-size="13" fill="#c01048">by an audit query, or not at all: the lost card</text>
+<text x="783.0" y="546" font-size="13" fill="#c01048">keeps transacting and the bank takes a fraud</text>
+<text x="783.0" y="563" font-size="13" fill="#c01048">loss.</text>
+<line x1="40" y1="978" x2="2448" y2="978" stroke="#d0d5dd"/>
+<circle cx="52" cy="1000" r="11" fill="#fff" stroke="#475467" stroke-width="1.8"/>
+<text x="70" y="1005" font-size="13" fill="#1f2a37">Start</text>
+<circle cx="154.0" cy="1000" r="11" fill="#fff" stroke="#475467" stroke-width="4"/>
+<text x="172.0" y="1005" font-size="13" fill="#1f2a37">End</text>
+<rect x="229.6" y="988" width="40" height="24" rx="6" fill="#fff" stroke="#475467" stroke-width="1.6"/>
+<text x="279.6" y="1005" font-size="13" fill="#1f2a37">Task</text>
+<polygon points="357.4,987 370.4,1000 357.4,1013 344.4,1000" fill="#fff" stroke="#475467" stroke-width="1.6"/>
+<text x="380.4" y="1005" font-size="13" fill="#1f2a37">Decision</text>
+<rect x="474.0" y="988" width="40" height="24" rx="6" fill="#fffaeb" stroke="#b54708" stroke-width="2.6"/>
+<text x="524.0" y="1005" font-size="13" fill="#1f2a37">Control step (fraud / compliance check)</text>
+<rect x="840.8" y="991" width="34" height="18" rx="9" fill="#c01048"/><text x="857.8" y="1004" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">P#</text>
+<text x="884.8" y="1005" font-size="13" fill="#1f2a37">Pain point (see pain-point log)</text>
+<text x="40" y="1048" font-size="12.5" fill="#5b6675">Fictional bank and procedures; no real bank documents or customer data. Source: practitioner interview (former branch staff, 9 years). Notation: BPMN 2.0.2 (omg.org/spec/BPMN/2.0.2).</text>
+</svg>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Defs_account" targetNamespace="https://github.com/kamilisha" exporter="kamilisha build_maps.py" exporterVersion="1.0">
+  <bpmn:collaboration id="Collab_account">
+    <bpmn:participant id="Pool_account" name="Fictional bank · branch — Map 3 — Business account opening (as-is)" processRef="Process_account" />
+    <bpmn:textAnnotation id="m3_n1"><bpmn:text>Old circular (v1): business licence for every business account. Current (v2): sole proprietors may give a tax registration certificate instead. Some branches still ask for the licence (P2, P5).</bpmn:text></bpmn:textAnnotation>
+    <bpmn:textAnnotation id="m3_n2"><bpmn:text>Each wrong list costs the customer a wasted trip and the branch a QA return (P3, P5).</bpmn:text></bpmn:textAnnotation>
+  </bpmn:collaboration>
+  <bpmn:process id="Process_account" name="Map 3 — Business account opening (as-is)" isExecutable="false">
+    <bpmn:laneSet id="LaneSet_account">
+      <bpmn:lane id="Lane_account_0" name="Customer">
+        <bpmn:flowNodeRef>m3_start</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>m3_return</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_account_1" name="Branch officer">
+        <bpmn:flowNodeRef>m3_list</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>m3_docs</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>m3_verify</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>m3_screen</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>m3_risk</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>m3_open</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>m3_end</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_account_2" name="Compliance">
+        <bpmn:flowNodeRef>m3_edd</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_account_3" name="Back office (QA)">
+        <bpmn:flowNodeRef>m3_qa</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>m3_back</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="m3_start" name="Requests a business account">
+      <bpmn:outgoing>Flow_m3_start_m3_list</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="m3_list" name="Give documents list for the entity type">
+      <bpmn:documentation>Pain points: P2, P5</bpmn:documentation>
+      <bpmn:incoming>Flow_m3_start_m3_list</bpmn:incoming>
+      <bpmn:incoming>Flow_m3_docs_m3_list</bpmn:incoming>
+      <bpmn:outgoing>Flow_m3_list_m3_return</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="m3_return" name="Returns with documents">
+      <bpmn:incoming>Flow_m3_list_m3_return</bpmn:incoming>
+      <bpmn:outgoing>Flow_m3_return_m3_docs</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="m3_docs" name="Documents complete per current circular?">
+      <bpmn:documentation>CONTROL STEP; Pain points: P5</bpmn:documentation>
+      <bpmn:incoming>Flow_m3_return_m3_docs</bpmn:incoming>
+      <bpmn:outgoing>Flow_m3_docs_m3_verify</bpmn:outgoing>
+      <bpmn:outgoing>Flow_m3_docs_m3_list</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="m3_verify" name="Verify owners and signatories">
+      <bpmn:documentation>CONTROL STEP</bpmn:documentation>
+      <bpmn:incoming>Flow_m3_docs_m3_verify</bpmn:incoming>
+      <bpmn:outgoing>Flow_m3_verify_m3_screen</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="m3_screen" name="Screen and risk-rate the customer">
+      <bpmn:documentation>CONTROL STEP</bpmn:documentation>
+      <bpmn:incoming>Flow_m3_verify_m3_screen</bpmn:incoming>
+      <bpmn:outgoing>Flow_m3_screen_m3_risk</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="m3_risk" name="High risk?">
+      <bpmn:incoming>Flow_m3_screen_m3_risk</bpmn:incoming>
+      <bpmn:outgoing>Flow_m3_risk_m3_open</bpmn:outgoing>
+      <bpmn:outgoing>Flow_m3_risk_m3_edd</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="m3_edd" name="Enhanced due diligence and approval">
+      <bpmn:documentation>CONTROL STEP</bpmn:documentation>
+      <bpmn:incoming>Flow_m3_risk_m3_edd</bpmn:incoming>
+      <bpmn:outgoing>Flow_m3_edd_m3_open</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="m3_open" name="Open account and mandate in core banking">
+      <bpmn:incoming>Flow_m3_risk_m3_open</bpmn:incoming>
+      <bpmn:incoming>Flow_m3_edd_m3_open</bpmn:incoming>
+      <bpmn:incoming>Flow_m3_back_m3_open</bpmn:incoming>
+      <bpmn:outgoing>Flow_m3_open_m3_qa</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="m3_qa" name="File complete and correct?">
+      <bpmn:documentation>Pain points: P3</bpmn:documentation>
+      <bpmn:incoming>Flow_m3_open_m3_qa</bpmn:incoming>
+      <bpmn:outgoing>Flow_m3_qa_m3_end</bpmn:outgoing>
+      <bpmn:outgoing>Flow_m3_qa_m3_back</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="m3_back" name="Return file to branch; customer recalled">
+      <bpmn:incoming>Flow_m3_qa_m3_back</bpmn:incoming>
+      <bpmn:outgoing>Flow_m3_back_m3_open</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:endEvent id="m3_end" name="Account activated">
+      <bpmn:incoming>Flow_m3_qa_m3_end</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_m3_start_m3_list" sourceRef="m3_start" targetRef="m3_list" />
+    <bpmn:sequenceFlow id="Flow_m3_list_m3_return" sourceRef="m3_list" targetRef="m3_return" />
+    <bpmn:sequenceFlow id="Flow_m3_return_m3_docs" sourceRef="m3_return" targetRef="m3_docs" />
+    <bpmn:sequenceFlow id="Flow_m3_docs_m3_verify" name="Yes" sourceRef="m3_docs" targetRef="m3_verify" />
+    <bpmn:sequenceFlow id="Flow_m3_docs_m3_list" name="No: another trip" sourceRef="m3_docs" targetRef="m3_list" />
+    <bpmn:sequenceFlow id="Flow_m3_verify_m3_screen" sourceRef="m3_verify" targetRef="m3_screen" />
+    <bpmn:sequenceFlow id="Flow_m3_screen_m3_risk" sourceRef="m3_screen" targetRef="m3_risk" />
+    <bpmn:sequenceFlow id="Flow_m3_risk_m3_open" name="No" sourceRef="m3_risk" targetRef="m3_open" />
+    <bpmn:sequenceFlow id="Flow_m3_risk_m3_edd" name="Yes" sourceRef="m3_risk" targetRef="m3_edd" />
+    <bpmn:sequenceFlow id="Flow_m3_edd_m3_open" sourceRef="m3_edd" targetRef="m3_open" />
+    <bpmn:sequenceFlow id="Flow_m3_open_m3_qa" sourceRef="m3_open" targetRef="m3_qa" />
+    <bpmn:sequenceFlow id="Flow_m3_qa_m3_end" name="Yes" sourceRef="m3_qa" targetRef="m3_end" />
+    <bpmn:sequenceFlow id="Flow_m3_qa_m3_back" name="No" sourceRef="m3_qa" targetRef="m3_back" />
+    <bpmn:sequenceFlow id="Flow_m3_back_m3_open" sourceRef="m3_back" targetRef="m3_open" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="Diagram_account"><bpmndi:BPMNPlane id="Plane_account" bpmnElement="Collab_account">
+    <bpmndi:BPMNShape id="Pool_account_di" bpmnElement="Pool_account" isHorizontal="true"><dc:Bounds x="40" y="150" width="2218" height="640" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="Lane_account_0_di" bpmnElement="Lane_account_0" isHorizontal="true"><dc:Bounds x="74" y="150" width="2184" height="160" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="Lane_account_1_di" bpmnElement="Lane_account_1" isHorizontal="true"><dc:Bounds x="74" y="310" width="2184" height="160" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="Lane_account_2_di" bpmnElement="Lane_account_2" isHorizontal="true"><dc:Bounds x="74" y="470" width="2184" height="160" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="Lane_account_3_di" bpmnElement="Lane_account_3" isHorizontal="true"><dc:Bounds x="74" y="630" width="2184" height="160" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m3_start_di" bpmnElement="m3_start"><dc:Bounds x="214" y="211" width="38" height="38" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m3_list_di" bpmnElement="m3_list"><dc:Bounds x="345" y="353" width="156" height="74" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m3_return_di" bpmnElement="m3_return"><dc:Bounds x="535" y="193" width="156" height="74" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m3_docs_di" bpmnElement="m3_docs"><dc:Bounds x="776" y="363" width="54" height="54" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m3_verify_di" bpmnElement="m3_verify"><dc:Bounds x="915" y="353" width="156" height="74" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m3_screen_di" bpmnElement="m3_screen"><dc:Bounds x="1105" y="353" width="156" height="74" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m3_risk_di" bpmnElement="m3_risk"><dc:Bounds x="1346" y="363" width="54" height="54" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m3_edd_di" bpmnElement="m3_edd"><dc:Bounds x="1485" y="513" width="156" height="74" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m3_open_di" bpmnElement="m3_open"><dc:Bounds x="1675" y="353" width="156" height="74" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m3_qa_di" bpmnElement="m3_qa"><dc:Bounds x="1916" y="683" width="54" height="54" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m3_back_di" bpmnElement="m3_back"><dc:Bounds x="2055" y="673" width="156" height="74" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m3_end_di" bpmnElement="m3_end"><dc:Bounds x="2114" y="371" width="38" height="38" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNEdge id="Flow_m3_start_m3_list_di" bpmnElement="Flow_m3_start_m3_list"><di:waypoint x="252" y="230" /><di:waypoint x="423" y="230" /><di:waypoint x="423" y="353" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m3_list_m3_return_di" bpmnElement="Flow_m3_list_m3_return"><di:waypoint x="501" y="390" /><di:waypoint x="613" y="390" /><di:waypoint x="613" y="267" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m3_return_m3_docs_di" bpmnElement="Flow_m3_return_m3_docs"><di:waypoint x="691" y="230" /><di:waypoint x="803" y="230" /><di:waypoint x="803" y="363" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m3_docs_m3_verify_di" bpmnElement="Flow_m3_docs_m3_verify"><di:waypoint x="830" y="390" /><di:waypoint x="915" y="390" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m3_docs_m3_list_di" bpmnElement="Flow_m3_docs_m3_list"><di:waypoint x="803" y="417" /><di:waypoint x="803" y="456" /><di:waypoint x="423" y="456" /><di:waypoint x="423" y="427" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m3_verify_m3_screen_di" bpmnElement="Flow_m3_verify_m3_screen"><di:waypoint x="1071" y="390" /><di:waypoint x="1105" y="390" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m3_screen_m3_risk_di" bpmnElement="Flow_m3_screen_m3_risk"><di:waypoint x="1261" y="390" /><di:waypoint x="1346" y="390" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m3_risk_m3_open_di" bpmnElement="Flow_m3_risk_m3_open"><di:waypoint x="1400" y="390" /><di:waypoint x="1675" y="390" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m3_risk_m3_edd_di" bpmnElement="Flow_m3_risk_m3_edd"><di:waypoint x="1373" y="417" /><di:waypoint x="1373" y="550" /><di:waypoint x="1485" y="550" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m3_edd_m3_open_di" bpmnElement="Flow_m3_edd_m3_open"><di:waypoint x="1641" y="550" /><di:waypoint x="1753" y="550" /><di:waypoint x="1753" y="427" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m3_open_m3_qa_di" bpmnElement="Flow_m3_open_m3_qa"><di:waypoint x="1831" y="390" /><di:waypoint x="1848" y="390" /><di:waypoint x="1848" y="710" /><di:waypoint x="1916" y="710" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m3_qa_m3_end_di" bpmnElement="Flow_m3_qa_m3_end"><di:waypoint x="1943" y="683" /><di:waypoint x="1943" y="390" /><di:waypoint x="2114" y="390" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m3_qa_m3_back_di" bpmnElement="Flow_m3_qa_m3_back"><di:waypoint x="1970" y="710" /><di:waypoint x="2055" y="710" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m3_back_m3_open_di" bpmnElement="Flow_m3_back_m3_open"><di:waypoint x="2133" y="747" /><di:waypoint x="2133" y="778" /><di:waypoint x="1793" y="778" /><di:waypoint x="1793" y="427" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNShape id="m3_n1_di" bpmnElement="m3_n1"><dc:Bounds x="353.0" y="496" width="400" height="82" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m3_n2_di" bpmnElement="m3_n2"><dc:Bounds x="953.0" y="514" width="330" height="48" /></bpmndi:BPMNShape>
+  </bpmndi:BPMNPlane></bpmndi:BPMNDiagram>
+</bpmn:definitions>

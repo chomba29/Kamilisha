@@ -1,0 +1,18 @@
+Rank,ID,Item,Type,Requirements,Priority,Size,Release,Depends on
+1,EN-01,Version-controlled library with Live and Superseded status,Enabler,BR-04,Must,M,Pilot,Stage 2 library fixes
+2,EN-02,Load the three demo circulars (v1 and v2) by section with metadata,Enabler,"BR-02, BR-04",Must,S,Pilot,EN-01
+3,EN-03,Question log with masking,Enabler,"BR-07, BR-08",Must,M,Pilot,
+4,EN-04,"Switch-off for one procedure or the whole service, within one hour",Enabler,G-11,Must,S,Pilot,EN-02
+5,EN-05,"Reports by branch and procedure only, no staff names",Enabler,G-12,Must,S,Pilot,EN-03
+6,EN-06,Control completion: add every control section of a retrieved procedure,Enabler,G-13,Must,S,Pilot,EN-02
+7,US-01,Card replacement steps,Story,"BR-01, BR-02, BR-09",Must,M,Pilot,EN-02
+8,US-02,Current version only,Story,"BR-04, BR-10",Must,M,Pilot,EN-01
+9,US-07,Not found reply,Story,"BR-05, BR-08",Must,S,Pilot,EN-03
+10,US-08,Control bypass declined and logged,Story,"BR-06, BR-08",Must,S,Pilot,EN-03
+11,US-09,Personal data kept out,Story,BR-07,Must,M,Pilot,EN-03
+12,US-03,Swahili answers,Story,BR-03,Must,M,Pilot,US-01
+13,US-04,Documents checklist,Story,"BR-01, BR-02, BR-09, BR-10",Must,M,Pilot,EN-02
+14,US-06,Leave notice,Story,"BR-01, BR-02, BR-04, BR-10",Must,S,Pilot,EN-02
+15,US-05,Ask for missing facts,Story,BR-11,Should,S,Pilot,US-04
+16,US-10,Wrong or unclear button,Story,BR-12,Should,S,Pilot,EN-03
+17,US-11,Training dashboard,Story,BR-13,Should,M,Pilot (week 4),EN-03

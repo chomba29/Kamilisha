@@ -1,0 +1,16 @@
+ID,Assumption,Cautious,Expected,Optimistic,Unit,Basis,Owner to confirm
+A01,Branches in the network,100,100,100,branches,Fictional bank,Branch Operations
+A02,Officers per branch handling the three procedures,6,6,6,officers,Practitioner estimate,Branch Operations
+A03,Working days per year,250,250,250,days,Standard calendar,Finance
+A04,Staff cost per hour,15000,15000,15000,TZS,Illustrative figure,Finance
+A05,Staff time to rework one QA return (branch and back office),30,45,60,minutes,Practitioner estimate,Back office QA
+A06,Share of lookups made through Kamilisha once rolled out,30,60,80,%,Adoption assumption; tested in the pilot,Data Management Office
+A07,Minutes to an answer with Kamilisha,2,1,0.5,minutes,Prototype target; tested in Stage 7,Data Management Office
+A08,Cut in outdated answers among Kamilisha users,50,80,90,%,Depends on library clean-up (P1 and P2),Data Management Office
+A09,Average loss when a lost card transacts,1000000,1500000,2500000,TZS,Illustrative figure,Fraud Risk
+A10,Share of fraud reduction credited to Kamilisha,0,0,0,%,Credited to the system hard stop for the blocking form (Stage 2 P4),Business owner
+C01,Library clean-up (one-off),45,30,20,staff days,Three owners; shared foundation for every option,Procedure owners
+C02,Build or licence in year one,90000000,60000000,40000000,TZS,Placeholder until a vendor or internal quote,Data Management Office
+C03,Running cost per year (hosting and licences),40000000,25000000,15000000,TZS,Placeholder until a quote,Data Management Office
+C04,Training time per officer (one-off),1,0.5,0.5,hours,30-minute session (Stage 8),Training unit
+C05,Ongoing support and library upkeep,1,0.5,0.25,full-time staff,Data Management Office estimate,Data Management Office

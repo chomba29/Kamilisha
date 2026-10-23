@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Defs_lookup" targetNamespace="https://github.com/kamilisha" exporter="kamilisha build_maps.py" exporterVersion="1.0">
+  <bpmn:collaboration id="Collab_lookup">
+    <bpmn:participant id="Pool_lookup" name="Fictional bank · branch — Map 1 — Procedure lookup (as-is)" processRef="Process_lookup" />
+    <bpmn:textAnnotation id="m1_n1"><bpmn:text>Update emails get missed, so the colleague may answer from an old version of the circular (P1, P2).</bpmn:text></bpmn:textAnnotation>
+    <bpmn:textAnnotation id="m1_n2"><bpmn:text>Two officers can give the same customer different answers (P2).</bpmn:text></bpmn:textAnnotation>
+    <bpmn:textAnnotation id="m1_n3"><bpmn:text>Errors QA misses surface later as audit queries, or as a fraud loss (P3).</bpmn:text></bpmn:textAnnotation>
+    <bpmn:association id="Assoc_m1_n3" sourceRef="m1_end" targetRef="m1_n3" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_lookup" name="Map 1 — Procedure lookup (as-is)" isExecutable="false">
+    <bpmn:laneSet id="LaneSet_lookup">
+      <bpmn:lane id="Lane_lookup_0" name="Customer">
+        <bpmn:flowNodeRef>m1_start</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_lookup_1" name="Branch officer">
+        <bpmn:flowNodeRef>m1_sure</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>m1_search</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>m1_found</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>m1_read</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>m1_serve</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>m1_end</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_lookup_2" name="Colleague / supervisor">
+        <bpmn:flowNodeRef>m1_ask</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_lookup_3" name="Back office (QA)">
+        <bpmn:flowNodeRef>m1_qa</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>m1_rework</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="m1_start" name="Customer makes a request">
+      <bpmn:outgoing>Flow_m1_start_m1_sure</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:exclusiveGateway id="m1_sure" name="Sure of the current procedure?">
+      <bpmn:incoming>Flow_m1_start_m1_sure</bpmn:incoming>
+      <bpmn:outgoing>Flow_m1_sure_m1_search</bpmn:outgoing>
+      <bpmn:outgoing>Flow_m1_sure_m1_serve</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="m1_search" name="Search intranet for the right circular">
+      <bpmn:documentation>Pain points: P6</bpmn:documentation>
+      <bpmn:incoming>Flow_m1_sure_m1_search</bpmn:incoming>
+      <bpmn:outgoing>Flow_m1_search_m1_found</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="m1_found" name="Right section found quickly?">
+      <bpmn:documentation>Pain points: P6</bpmn:documentation>
+      <bpmn:incoming>Flow_m1_search_m1_found</bpmn:incoming>
+      <bpmn:outgoing>Flow_m1_found_m1_read</bpmn:outgoing>
+      <bpmn:outgoing>Flow_m1_found_m1_ask</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="m1_read" name="Read the section in a 20–50 page circular">
+      <bpmn:documentation>Pain points: P7</bpmn:documentation>
+      <bpmn:incoming>Flow_m1_found_m1_read</bpmn:incoming>
+      <bpmn:outgoing>Flow_m1_read_m1_serve</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="m1_ask" name="Answer from memory or habit (kwa mazoea)">
+      <bpmn:documentation>Pain points: P1, P2</bpmn:documentation>
+      <bpmn:incoming>Flow_m1_found_m1_ask</bpmn:incoming>
+      <bpmn:outgoing>Flow_m1_ask_m1_serve</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="m1_serve" name="Serve customer, including control steps">
+      <bpmn:incoming>Flow_m1_sure_m1_serve</bpmn:incoming>
+      <bpmn:incoming>Flow_m1_read_m1_serve</bpmn:incoming>
+      <bpmn:incoming>Flow_m1_ask_m1_serve</bpmn:incoming>
+      <bpmn:incoming>Flow_m1_rework_m1_serve</bpmn:incoming>
+      <bpmn:outgoing>Flow_m1_serve_m1_qa</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="m1_qa" name="Error found at QA review?">
+      <bpmn:documentation>Pain points: P3</bpmn:documentation>
+      <bpmn:incoming>Flow_m1_serve_m1_qa</bpmn:incoming>
+      <bpmn:outgoing>Flow_m1_qa_m1_rework</bpmn:outgoing>
+      <bpmn:outgoing>Flow_m1_qa_m1_end</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="m1_rework" name="Return for rework; customer recalled">
+      <bpmn:incoming>Flow_m1_qa_m1_rework</bpmn:incoming>
+      <bpmn:outgoing>Flow_m1_rework_m1_serve</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:endEvent id="m1_end" name="Request completed">
+      <bpmn:incoming>Flow_m1_qa_m1_end</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_m1_start_m1_sure" sourceRef="m1_start" targetRef="m1_sure" />
+    <bpmn:sequenceFlow id="Flow_m1_sure_m1_search" name="No" sourceRef="m1_sure" targetRef="m1_search" />
+    <bpmn:sequenceFlow id="Flow_m1_sure_m1_serve" name="Yes (may be out of date)" sourceRef="m1_sure" targetRef="m1_serve" />
+    <bpmn:sequenceFlow id="Flow_m1_search_m1_found" sourceRef="m1_search" targetRef="m1_found" />
+    <bpmn:sequenceFlow id="Flow_m1_found_m1_read" name="Yes" sourceRef="m1_found" targetRef="m1_read" />
+    <bpmn:sequenceFlow id="Flow_m1_found_m1_ask" name="No: ask a colleague" sourceRef="m1_found" targetRef="m1_ask" />
+    <bpmn:sequenceFlow id="Flow_m1_read_m1_serve" sourceRef="m1_read" targetRef="m1_serve" />
+    <bpmn:sequenceFlow id="Flow_m1_ask_m1_serve" sourceRef="m1_ask" targetRef="m1_serve" />
+    <bpmn:sequenceFlow id="Flow_m1_serve_m1_qa" sourceRef="m1_serve" targetRef="m1_qa" />
+    <bpmn:sequenceFlow id="Flow_m1_qa_m1_rework" name="Yes" sourceRef="m1_qa" targetRef="m1_rework" />
+    <bpmn:sequenceFlow id="Flow_m1_qa_m1_end" name="No" sourceRef="m1_qa" targetRef="m1_end" />
+    <bpmn:sequenceFlow id="Flow_m1_rework_m1_serve" sourceRef="m1_rework" targetRef="m1_serve" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="Diagram_lookup"><bpmndi:BPMNPlane id="Plane_lookup" bpmnElement="Collab_lookup">
+    <bpmndi:BPMNShape id="Pool_lookup_di" bpmnElement="Pool_lookup" isHorizontal="true"><dc:Bounds x="40" y="150" width="1838" height="640" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="Lane_lookup_0_di" bpmnElement="Lane_lookup_0" isHorizontal="true"><dc:Bounds x="74" y="150" width="1804" height="160" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="Lane_lookup_1_di" bpmnElement="Lane_lookup_1" isHorizontal="true"><dc:Bounds x="74" y="310" width="1804" height="160" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="Lane_lookup_2_di" bpmnElement="Lane_lookup_2" isHorizontal="true"><dc:Bounds x="74" y="470" width="1804" height="160" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="Lane_lookup_3_di" bpmnElement="Lane_lookup_3" isHorizontal="true"><dc:Bounds x="74" y="630" width="1804" height="160" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m1_start_di" bpmnElement="m1_start"><dc:Bounds x="214" y="211" width="38" height="38" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m1_sure_di" bpmnElement="m1_sure"><dc:Bounds x="396" y="363" width="54" height="54" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m1_search_di" bpmnElement="m1_search"><dc:Bounds x="535" y="353" width="156" height="74" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m1_found_di" bpmnElement="m1_found"><dc:Bounds x="776" y="363" width="54" height="54" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m1_read_di" bpmnElement="m1_read"><dc:Bounds x="915" y="353" width="156" height="74" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m1_ask_di" bpmnElement="m1_ask"><dc:Bounds x="915" y="513" width="156" height="74" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m1_serve_di" bpmnElement="m1_serve"><dc:Bounds x="1105" y="353" width="156" height="74" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m1_qa_di" bpmnElement="m1_qa"><dc:Bounds x="1346" y="683" width="54" height="54" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m1_rework_di" bpmnElement="m1_rework"><dc:Bounds x="1485" y="673" width="156" height="74" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m1_end_di" bpmnElement="m1_end"><dc:Bounds x="1734" y="371" width="38" height="38" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNEdge id="Flow_m1_start_m1_sure_di" bpmnElement="Flow_m1_start_m1_sure"><di:waypoint x="252" y="230" /><di:waypoint x="423" y="230" /><di:waypoint x="423" y="363" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m1_sure_m1_search_di" bpmnElement="Flow_m1_sure_m1_search"><di:waypoint x="450" y="390" /><di:waypoint x="535" y="390" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m1_sure_m1_serve_di" bpmnElement="Flow_m1_sure_m1_serve"><di:waypoint x="423" y="363" /><di:waypoint x="423" y="326" /><di:waypoint x="1183" y="326" /><di:waypoint x="1183" y="353" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m1_search_m1_found_di" bpmnElement="Flow_m1_search_m1_found"><di:waypoint x="691" y="390" /><di:waypoint x="776" y="390" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m1_found_m1_read_di" bpmnElement="Flow_m1_found_m1_read"><di:waypoint x="830" y="390" /><di:waypoint x="915" y="390" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m1_found_m1_ask_di" bpmnElement="Flow_m1_found_m1_ask"><di:waypoint x="803" y="417" /><di:waypoint x="803" y="550" /><di:waypoint x="915" y="550" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m1_read_m1_serve_di" bpmnElement="Flow_m1_read_m1_serve"><di:waypoint x="1071" y="390" /><di:waypoint x="1105" y="390" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m1_ask_m1_serve_di" bpmnElement="Flow_m1_ask_m1_serve"><di:waypoint x="1071" y="550" /><di:waypoint x="1213" y="550" /><di:waypoint x="1213" y="427" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m1_serve_m1_qa_di" bpmnElement="Flow_m1_serve_m1_qa"><di:waypoint x="1261" y="390" /><di:waypoint x="1278" y="390" /><di:waypoint x="1278" y="710" /><di:waypoint x="1346" y="710" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m1_qa_m1_rework_di" bpmnElement="Flow_m1_qa_m1_rework"><di:waypoint x="1400" y="710" /><di:waypoint x="1485" y="710" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m1_qa_m1_end_di" bpmnElement="Flow_m1_qa_m1_end"><di:waypoint x="1373" y="683" /><di:waypoint x="1373" y="390" /><di:waypoint x="1734" y="390" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_m1_rework_m1_serve_di" bpmnElement="Flow_m1_rework_m1_serve"><di:waypoint x="1563" y="747" /><di:waypoint x="1563" y="776" /><di:waypoint x="1153" y="776" /><di:waypoint x="1153" y="427" /></bpmndi:BPMNEdge>
+    <bpmndi:BPMNShape id="m1_n1_di" bpmnElement="m1_n1"><dc:Bounds x="383.0" y="520" width="280" height="65" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m1_n2_di" bpmnElement="m1_n2"><dc:Bounds x="1123.0" y="190" width="260" height="48" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="m1_n3_di" bpmnElement="m1_n3"><dc:Bounds x="1543.0" y="500" width="290" height="48" /></bpmndi:BPMNShape>
+    <bpmndi:BPMNEdge id="Assoc_m1_n3_di" bpmnElement="Assoc_m1_n3"><di:waypoint x="1753" y="390" /><di:waypoint x="1543.0" y="524" /></bpmndi:BPMNEdge>
+  </bpmndi:BPMNPlane></bpmndi:BPMNDiagram>
+</bpmn:definitions>

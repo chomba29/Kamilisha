@@ -1,0 +1,881 @@
+request_id,date,week,branch,group,procedure,lookup_route,answer_outdated,timed_observation,minutes_to_answer,qa_returned,blocking_form_on_file,card_transacted_after_loss,extra_customer_trip
+R00001,2026-08-28,1,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00002,2026-08-28,1,Pilot 1,Pilot,Card replacement,Intranet,No,Yes,7.5,No,Yes,No,
+R00003,2026-08-24,1,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00004,2026-08-28,1,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00005,2026-08-24,1,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00006,2026-08-28,1,Pilot 1,Pilot,Card replacement,Intranet,No,No,,Yes,No,No,
+R00007,2026-08-28,1,Pilot 1,Pilot,Card replacement,Intranet,No,Yes,15.1,No,Yes,No,
+R00008,2026-08-27,1,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00009,2026-08-28,1,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00010,2026-08-27,1,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00011,2026-08-25,1,Pilot 1,Pilot,Card replacement,Already knew,No,Yes,0.7,No,Yes,No,
+R00012,2026-08-27,1,Pilot 1,Pilot,Card replacement,Intranet,No,Yes,9.6,No,Yes,No,
+R00013,2026-08-26,1,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00014,2026-08-25,1,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00015,2026-08-24,1,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00016,2026-08-28,1,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00017,2026-08-27,1,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00018,2026-08-25,1,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00019,2026-08-27,1,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00020,2026-08-27,1,Pilot 1,Pilot,Card replacement,Colleague,No,No,,Yes,No,No,
+R00021,2026-08-27,1,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00022,2026-08-28,1,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00023,2026-08-28,1,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00024,2026-08-24,1,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00025,2026-08-26,1,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00026,2026-08-26,1,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00027,2026-08-26,1,Pilot 1,Pilot,Business account opening,Already knew,No,No,,No,,,No
+R00028,2026-08-24,1,Pilot 1,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00029,2026-08-27,1,Pilot 1,Pilot,Business account opening,Colleague,Yes,No,,Yes,,,Yes
+R00030,2026-08-28,1,Pilot 1,Pilot,Business account opening,Colleague,Yes,No,,Yes,,,No
+R00031,2026-08-28,1,Pilot 1,Pilot,Business account opening,Already knew,Yes,No,,Yes,,,No
+R00032,2026-08-25,1,Pilot 1,Pilot,Business account opening,Intranet,No,No,,No,,,No
+R00033,2026-08-27,1,Pilot 1,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00034,2026-08-27,1,Pilot 1,Pilot,Business account opening,Colleague,No,Yes,5.1,No,,,No
+R00035,2026-08-25,1,Pilot 1,Pilot,Business account opening,Colleague,Yes,No,,Yes,,,Yes
+R00036,2026-08-26,1,Pilot 1,Pilot,Business account opening,Intranet,No,No,,No,,,No
+R00037,2026-08-28,1,Pilot 1,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00038,2026-08-25,1,Pilot 1,Pilot,Business account opening,Already knew,No,No,,No,,,No
+R00039,2026-08-28,1,Pilot 1,Pilot,Annual leave,Intranet,No,No,,No,,,
+R00040,2026-08-31,2,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00041,2026-09-03,2,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00042,2026-08-31,2,Pilot 1,Pilot,Card replacement,Intranet,No,Yes,5.3,No,Yes,No,
+R00043,2026-09-02,2,Pilot 1,Pilot,Card replacement,Intranet,No,Yes,14.3,No,Yes,No,
+R00044,2026-09-02,2,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00045,2026-09-03,2,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00046,2026-09-01,2,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00047,2026-09-02,2,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00048,2026-09-03,2,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00049,2026-09-03,2,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,No,Yes,No,
+R00050,2026-09-01,2,Pilot 1,Pilot,Card replacement,Colleague,No,Yes,2.4,No,Yes,No,
+R00051,2026-09-01,2,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00052,2026-09-04,2,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,No,Yes,No,
+R00053,2026-09-03,2,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,No,Yes,No,
+R00054,2026-09-03,2,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00055,2026-09-02,2,Pilot 1,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00056,2026-09-04,2,Pilot 1,Pilot,Business account opening,Colleague,Yes,No,,Yes,,,Yes
+R00057,2026-09-04,2,Pilot 1,Pilot,Business account opening,Already knew,Yes,No,,No,,,Yes
+R00058,2026-09-03,2,Pilot 1,Pilot,Business account opening,Intranet,No,No,,No,,,No
+R00059,2026-09-01,2,Pilot 1,Pilot,Business account opening,Already knew,No,No,,Yes,,,No
+R00060,2026-09-02,2,Pilot 1,Pilot,Business account opening,Colleague,Yes,No,,Yes,,,Yes
+R00061,2026-09-01,2,Pilot 1,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00062,2026-09-03,2,Pilot 1,Pilot,Business account opening,Already knew,No,Yes,0.6,No,,,No
+R00063,2026-09-04,2,Pilot 1,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00064,2026-08-31,2,Pilot 1,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00065,2026-09-01,2,Pilot 1,Pilot,Business account opening,Intranet,No,No,,No,,,No
+R00066,2026-09-02,2,Pilot 1,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00067,2026-08-31,2,Pilot 1,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00068,2026-09-03,2,Pilot 1,Pilot,Business account opening,Already knew,No,No,,No,,,No
+R00069,2026-09-02,2,Pilot 1,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00070,2026-09-02,2,Pilot 1,Pilot,Annual leave,Already knew,No,No,,No,,,
+R00071,2026-09-09,3,Pilot 1,Pilot,Card replacement,Already knew,Yes,No,,No,Yes,No,
+R00072,2026-09-07,3,Pilot 1,Pilot,Card replacement,Colleague,No,Yes,4.5,No,Yes,No,
+R00073,2026-09-10,3,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00074,2026-09-07,3,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00075,2026-09-11,3,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00076,2026-09-11,3,Pilot 1,Pilot,Card replacement,Already knew,No,Yes,0.4,No,Yes,No,
+R00077,2026-09-07,3,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00078,2026-09-07,3,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00079,2026-09-10,3,Pilot 1,Pilot,Card replacement,Colleague,No,No,,Yes,No,No,
+R00080,2026-09-07,3,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00081,2026-09-07,3,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00082,2026-09-08,3,Pilot 1,Pilot,Card replacement,Colleague,Yes,Yes,1.9,Yes,No,No,
+R00083,2026-09-08,3,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00084,2026-09-08,3,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00085,2026-09-11,3,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00086,2026-09-11,3,Pilot 1,Pilot,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00087,2026-09-08,3,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00088,2026-09-09,3,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00089,2026-09-10,3,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00090,2026-09-10,3,Pilot 1,Pilot,Business account opening,Already knew,No,No,,No,,,No
+R00091,2026-09-09,3,Pilot 1,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00092,2026-09-09,3,Pilot 1,Pilot,Business account opening,Colleague,Yes,No,,Yes,,,No
+R00093,2026-09-11,3,Pilot 1,Pilot,Business account opening,Already knew,No,No,,No,,,No
+R00094,2026-09-11,3,Pilot 1,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00095,2026-09-11,3,Pilot 1,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00096,2026-09-11,3,Pilot 1,Pilot,Annual leave,Colleague,No,No,,No,,,
+R00097,2026-09-07,3,Pilot 1,Pilot,Annual leave,Already knew,No,No,,No,,,
+R00098,2026-09-17,4,Pilot 1,Pilot,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00099,2026-09-15,4,Pilot 1,Pilot,Card replacement,Intranet,No,Yes,11.3,No,Yes,No,
+R00100,2026-09-14,4,Pilot 1,Pilot,Card replacement,Colleague,No,Yes,2.6,No,Yes,No,
+R00101,2026-09-17,4,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00102,2026-09-15,4,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00103,2026-09-18,4,Pilot 1,Pilot,Card replacement,Colleague,No,No,,Yes,No,No,
+R00104,2026-09-18,4,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00105,2026-09-18,4,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,No,No,No,
+R00106,2026-09-17,4,Pilot 1,Pilot,Card replacement,Colleague,No,No,,Yes,No,No,
+R00107,2026-09-16,4,Pilot 1,Pilot,Card replacement,Intranet,No,Yes,4.7,No,No,No,
+R00108,2026-09-14,4,Pilot 1,Pilot,Card replacement,Already knew,No,No,,Yes,Yes,No,
+R00109,2026-09-15,4,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00110,2026-09-18,4,Pilot 1,Pilot,Card replacement,Colleague,Yes,Yes,1.5,No,No,No,
+R00111,2026-09-17,4,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00112,2026-09-16,4,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00113,2026-09-18,4,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00114,2026-09-15,4,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00115,2026-09-14,4,Pilot 1,Pilot,Business account opening,Already knew,No,No,,No,,,No
+R00116,2026-09-16,4,Pilot 1,Pilot,Business account opening,Already knew,No,No,,No,,,No
+R00117,2026-09-16,4,Pilot 1,Pilot,Business account opening,Intranet,No,No,,No,,,No
+R00118,2026-09-16,4,Pilot 1,Pilot,Business account opening,Colleague,Yes,No,,No,,,Yes
+R00119,2026-09-15,4,Pilot 1,Pilot,Annual leave,Already knew,No,No,,No,,,
+R00120,2026-09-17,4,Pilot 1,Pilot,Annual leave,Already knew,No,No,,No,,,
+R00121,2026-09-17,4,Pilot 1,Pilot,Annual leave,Already knew,No,Yes,0.3,No,,,
+R00122,2026-09-14,4,Pilot 1,Pilot,Annual leave,Colleague,Yes,No,,Yes,,,
+R00123,2026-09-18,4,Pilot 1,Pilot,Annual leave,Intranet,No,No,,No,,,
+R00124,2026-09-16,4,Pilot 1,Pilot,Annual leave,Already knew,No,No,,No,,,
+R00125,2026-09-14,4,Pilot 1,Pilot,Annual leave,Intranet,No,No,,No,,,
+R00126,2026-09-18,4,Pilot 1,Pilot,Annual leave,Already knew,Yes,No,,No,,,
+R00127,2026-09-22,5,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00128,2026-09-24,5,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00129,2026-09-23,5,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00130,2026-09-22,5,Pilot 1,Pilot,Card replacement,Already knew,Yes,No,,No,No,No,
+R00131,2026-09-23,5,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00132,2026-09-25,5,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00133,2026-09-22,5,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00134,2026-09-23,5,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,No,No,No,
+R00135,2026-09-23,5,Pilot 1,Pilot,Card replacement,Colleague,No,No,,Yes,No,No,
+R00136,2026-09-21,5,Pilot 1,Pilot,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00137,2026-09-21,5,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00138,2026-09-21,5,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00139,2026-09-24,5,Pilot 1,Pilot,Card replacement,Intranet,No,Yes,7.4,Yes,No,No,
+R00140,2026-09-21,5,Pilot 1,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00141,2026-09-22,5,Pilot 1,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00142,2026-09-25,5,Pilot 1,Pilot,Business account opening,Colleague,Yes,No,,No,,,No
+R00143,2026-09-22,5,Pilot 1,Pilot,Business account opening,Colleague,No,Yes,4.4,No,,,No
+R00144,2026-09-24,5,Pilot 1,Pilot,Business account opening,Colleague,Yes,Yes,1.3,No,,,No
+R00145,2026-09-23,5,Pilot 1,Pilot,Annual leave,Already knew,No,No,,No,,,
+R00146,2026-09-23,5,Pilot 1,Pilot,Annual leave,Colleague,No,No,,No,,,
+R00147,2026-09-22,5,Pilot 1,Pilot,Annual leave,Already knew,No,No,,No,,,
+R00148,2026-09-25,5,Pilot 1,Pilot,Annual leave,Colleague,No,No,,Yes,,,
+R00149,2026-09-23,5,Pilot 1,Pilot,Annual leave,Already knew,No,No,,No,,,
+R00150,2026-09-25,5,Pilot 1,Pilot,Annual leave,Colleague,No,No,,No,,,
+R00151,2026-09-25,5,Pilot 1,Pilot,Annual leave,Already knew,No,No,,No,,,
+R00152,2026-10-01,6,Pilot 1,Pilot,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00153,2026-09-30,6,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00154,2026-09-29,6,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00155,2026-09-28,6,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00156,2026-09-28,6,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00157,2026-09-28,6,Pilot 1,Pilot,Card replacement,Already knew,No,Yes,0.6,No,Yes,No,
+R00158,2026-09-28,6,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00159,2026-09-29,6,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,No,No,No,
+R00160,2026-09-29,6,Pilot 1,Pilot,Card replacement,Intranet,No,No,,Yes,Yes,No,
+R00161,2026-09-30,6,Pilot 1,Pilot,Card replacement,Colleague,Yes,Yes,3.7,Yes,No,No,
+R00162,2026-09-30,6,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00163,2026-10-01,6,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00164,2026-09-30,6,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00165,2026-10-01,6,Pilot 1,Pilot,Card replacement,Intranet,No,No,,Yes,Yes,No,
+R00166,2026-10-02,6,Pilot 1,Pilot,Card replacement,Colleague,Yes,Yes,4.4,Yes,No,No,
+R00167,2026-09-30,6,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00168,2026-10-01,6,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00169,2026-09-29,6,Pilot 1,Pilot,Card replacement,Already knew,No,No,,Yes,No,No,
+R00170,2026-10-01,6,Pilot 1,Pilot,Card replacement,Colleague,No,No,,Yes,Yes,No,
+R00171,2026-09-29,6,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00172,2026-09-29,6,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,No,No,No,
+R00173,2026-10-01,6,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00174,2026-10-01,6,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,No,Yes,No,
+R00175,2026-10-02,6,Pilot 1,Pilot,Business account opening,Intranet,No,No,,No,,,No
+R00176,2026-10-02,6,Pilot 1,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00177,2026-10-02,6,Pilot 1,Pilot,Business account opening,Intranet,No,No,,No,,,No
+R00178,2026-09-30,6,Pilot 1,Pilot,Business account opening,Already knew,Yes,No,,Yes,,,Yes
+R00179,2026-09-29,6,Pilot 1,Pilot,Business account opening,Colleague,Yes,No,,Yes,,,Yes
+R00180,2026-09-30,6,Pilot 1,Pilot,Business account opening,Intranet,No,No,,No,,,No
+R00181,2026-10-01,6,Pilot 1,Pilot,Business account opening,Already knew,No,No,,No,,,No
+R00182,2026-09-30,6,Pilot 1,Pilot,Annual leave,Colleague,No,Yes,9.9,No,,,
+R00183,2026-09-28,6,Pilot 1,Pilot,Annual leave,Colleague,Yes,No,,No,,,
+R00184,2026-10-09,7,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,No,No,No,
+R00185,2026-10-05,7,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00186,2026-10-07,7,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00187,2026-10-05,7,Pilot 1,Pilot,Card replacement,Colleague,No,No,,Yes,Yes,No,
+R00188,2026-10-09,7,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00189,2026-10-06,7,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,No,Yes,No,
+R00190,2026-10-06,7,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00191,2026-10-07,7,Pilot 1,Pilot,Card replacement,Already knew,No,Yes,0.6,No,Yes,No,
+R00192,2026-10-05,7,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00193,2026-10-08,7,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00194,2026-10-07,7,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00195,2026-10-07,7,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00196,2026-10-06,7,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00197,2026-10-06,7,Pilot 1,Pilot,Card replacement,Colleague,Yes,Yes,2.5,No,Yes,No,
+R00198,2026-10-06,7,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,No,Yes,No,
+R00199,2026-10-08,7,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00200,2026-10-07,7,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00201,2026-10-07,7,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00202,2026-10-08,7,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00203,2026-10-09,7,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00204,2026-10-06,7,Pilot 1,Pilot,Business account opening,Colleague,Yes,No,,No,,,No
+R00205,2026-10-07,7,Pilot 1,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00206,2026-10-06,7,Pilot 1,Pilot,Business account opening,Intranet,No,No,,No,,,No
+R00207,2026-10-07,7,Pilot 1,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00208,2026-10-07,7,Pilot 1,Pilot,Annual leave,Already knew,No,Yes,0.5,No,,,
+R00209,2026-10-07,7,Pilot 1,Pilot,Annual leave,Already knew,No,Yes,0.9,No,,,
+R00210,2026-10-08,7,Pilot 1,Pilot,Annual leave,Already knew,No,No,,No,,,
+R00211,2026-10-14,8,Pilot 1,Pilot,Card replacement,Colleague,Yes,Yes,3.4,Yes,No,No,
+R00212,2026-10-14,8,Pilot 1,Pilot,Card replacement,Colleague,No,Yes,6.5,No,Yes,No,
+R00213,2026-10-14,8,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00214,2026-10-14,8,Pilot 1,Pilot,Card replacement,Already knew,No,No,,Yes,No,No,
+R00215,2026-10-16,8,Pilot 1,Pilot,Card replacement,Already knew,Yes,No,,No,No,No,
+R00216,2026-10-16,8,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00217,2026-10-16,8,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00218,2026-10-13,8,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00219,2026-10-14,8,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00220,2026-10-13,8,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00221,2026-10-13,8,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00222,2026-10-15,8,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00223,2026-10-16,8,Pilot 1,Pilot,Card replacement,Already knew,No,Yes,0.6,No,Yes,No,
+R00224,2026-10-13,8,Pilot 1,Pilot,Card replacement,Colleague,No,No,,Yes,No,No,
+R00225,2026-10-12,8,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00226,2026-10-15,8,Pilot 1,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00227,2026-10-12,8,Pilot 1,Pilot,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00228,2026-10-12,8,Pilot 1,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00229,2026-10-12,8,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00230,2026-10-13,8,Pilot 1,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00231,2026-10-12,8,Pilot 1,Pilot,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00232,2026-10-16,8,Pilot 1,Pilot,Business account opening,Intranet,No,Yes,15.5,No,,,No
+R00233,2026-10-13,8,Pilot 1,Pilot,Business account opening,Already knew,No,No,,Yes,,,No
+R00234,2026-10-15,8,Pilot 1,Pilot,Business account opening,Colleague,Yes,Yes,2.2,No,,,Yes
+R00235,2026-10-13,8,Pilot 1,Pilot,Business account opening,Already knew,Yes,No,,No,,,Yes
+R00236,2026-10-13,8,Pilot 1,Pilot,Business account opening,Already knew,No,No,,No,,,No
+R00237,2026-10-16,8,Pilot 1,Pilot,Business account opening,Colleague,Yes,No,,Yes,,,No
+R00238,2026-10-14,8,Pilot 1,Pilot,Business account opening,Colleague,Yes,Yes,2.6,No,,,No
+R00239,2026-10-14,8,Pilot 1,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00240,2026-10-15,8,Pilot 1,Pilot,Annual leave,Already knew,No,No,,Yes,,,
+R00241,2026-10-12,8,Pilot 1,Pilot,Annual leave,Already knew,No,Yes,0.3,No,,,
+R00242,2026-10-13,8,Pilot 1,Pilot,Annual leave,Already knew,No,No,,No,,,
+R00243,2026-10-16,8,Pilot 1,Pilot,Annual leave,Intranet,No,No,,No,,,
+R00244,2026-10-16,8,Pilot 1,Pilot,Annual leave,Intranet,No,No,,No,,,
+R00245,2026-10-15,8,Pilot 1,Pilot,Annual leave,Already knew,No,No,,No,,,
+R00246,2026-08-25,1,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00247,2026-08-24,1,Pilot 2,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00248,2026-08-24,1,Pilot 2,Pilot,Card replacement,Colleague,Yes,No,,No,No,No,
+R00249,2026-08-25,1,Pilot 2,Pilot,Card replacement,Already knew,Yes,Yes,0.9,Yes,No,No,
+R00250,2026-08-27,1,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00251,2026-08-26,1,Pilot 2,Pilot,Card replacement,Colleague,Yes,No,,No,No,No,
+R00252,2026-08-28,1,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00253,2026-08-27,1,Pilot 2,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00254,2026-08-26,1,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00255,2026-08-26,1,Pilot 2,Pilot,Card replacement,Colleague,No,Yes,2.1,No,Yes,No,
+R00256,2026-08-27,1,Pilot 2,Pilot,Card replacement,Colleague,No,Yes,5.3,No,Yes,No,
+R00257,2026-08-25,1,Pilot 2,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00258,2026-08-26,1,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00259,2026-08-27,1,Pilot 2,Pilot,Card replacement,Colleague,No,Yes,1.2,No,Yes,No,
+R00260,2026-08-26,1,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00261,2026-08-24,1,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00262,2026-08-26,1,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00263,2026-08-25,1,Pilot 2,Pilot,Card replacement,Already knew,Yes,Yes,0.4,No,Yes,No,
+R00264,2026-08-25,1,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00265,2026-08-24,1,Pilot 2,Pilot,Business account opening,Already knew,No,No,,No,,,No
+R00266,2026-08-28,1,Pilot 2,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00267,2026-08-28,1,Pilot 2,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00268,2026-08-24,1,Pilot 2,Pilot,Business account opening,Already knew,No,No,,No,,,No
+R00269,2026-08-24,1,Pilot 2,Pilot,Business account opening,Already knew,Yes,No,,No,,,No
+R00270,2026-08-26,1,Pilot 2,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00271,2026-08-25,1,Pilot 2,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00272,2026-08-24,1,Pilot 2,Pilot,Business account opening,Intranet,No,Yes,10.3,No,,,No
+R00273,2026-08-28,1,Pilot 2,Pilot,Business account opening,Intranet,No,No,,No,,,No
+R00274,2026-08-28,1,Pilot 2,Pilot,Annual leave,Already knew,No,No,,No,,,
+R00275,2026-08-28,1,Pilot 2,Pilot,Annual leave,Already knew,Yes,No,,Yes,,,
+R00276,2026-08-27,1,Pilot 2,Pilot,Annual leave,Colleague,Yes,No,,No,,,
+R00277,2026-09-01,2,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00278,2026-09-01,2,Pilot 2,Pilot,Card replacement,Already knew,No,No,,Yes,No,No,
+R00279,2026-09-04,2,Pilot 2,Pilot,Card replacement,Colleague,Yes,No,,No,Yes,No,
+R00280,2026-09-02,2,Pilot 2,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00281,2026-09-03,2,Pilot 2,Pilot,Card replacement,Colleague,Yes,No,,No,No,No,
+R00282,2026-09-01,2,Pilot 2,Pilot,Card replacement,Colleague,No,Yes,5.2,No,Yes,No,
+R00283,2026-09-04,2,Pilot 2,Pilot,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00284,2026-09-04,2,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00285,2026-09-02,2,Pilot 2,Pilot,Card replacement,Intranet,No,No,,Yes,Yes,No,
+R00286,2026-09-02,2,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00287,2026-09-02,2,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00288,2026-09-01,2,Pilot 2,Pilot,Card replacement,Already knew,Yes,Yes,0.9,Yes,No,No,
+R00289,2026-09-03,2,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00290,2026-09-02,2,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00291,2026-09-01,2,Pilot 2,Pilot,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00292,2026-09-02,2,Pilot 2,Pilot,Card replacement,Intranet,No,Yes,5.4,No,Yes,No,
+R00293,2026-08-31,2,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00294,2026-09-01,2,Pilot 2,Pilot,Business account opening,Colleague,Yes,No,,No,,,Yes
+R00295,2026-09-04,2,Pilot 2,Pilot,Business account opening,Colleague,Yes,No,,No,,,Yes
+R00296,2026-09-03,2,Pilot 2,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00297,2026-09-04,2,Pilot 2,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00298,2026-09-03,2,Pilot 2,Pilot,Business account opening,Already knew,No,No,,No,,,No
+R00299,2026-09-04,2,Pilot 2,Pilot,Business account opening,Colleague,Yes,Yes,3.8,No,,,Yes
+R00300,2026-09-04,2,Pilot 2,Pilot,Annual leave,Intranet,No,No,,No,,,
+R00301,2026-09-04,2,Pilot 2,Pilot,Annual leave,Colleague,No,No,,No,,,
+R00302,2026-08-31,2,Pilot 2,Pilot,Annual leave,Already knew,No,No,,No,,,
+R00303,2026-09-08,3,Pilot 2,Pilot,Card replacement,Colleague,Yes,No,,No,Yes,No,
+R00304,2026-09-07,3,Pilot 2,Pilot,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00305,2026-09-11,3,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00306,2026-09-08,3,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00307,2026-09-07,3,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00308,2026-09-07,3,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,No,No,
+R00309,2026-09-09,3,Pilot 2,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00310,2026-09-09,3,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00311,2026-09-07,3,Pilot 2,Pilot,Card replacement,Intranet,No,No,,Yes,Yes,No,
+R00312,2026-09-07,3,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00313,2026-09-09,3,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00314,2026-09-07,3,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00315,2026-09-07,3,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00316,2026-09-07,3,Pilot 2,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00317,2026-09-07,3,Pilot 2,Pilot,Business account opening,Already knew,No,No,,No,,,No
+R00318,2026-09-07,3,Pilot 2,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00319,2026-09-08,3,Pilot 2,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00320,2026-09-11,3,Pilot 2,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00321,2026-09-09,3,Pilot 2,Pilot,Business account opening,Colleague,Yes,No,,No,,,Yes
+R00322,2026-09-07,3,Pilot 2,Pilot,Business account opening,Already knew,No,No,,Yes,,,No
+R00323,2026-09-10,3,Pilot 2,Pilot,Annual leave,Colleague,Yes,No,,No,,,
+R00324,2026-09-08,3,Pilot 2,Pilot,Annual leave,Already knew,No,No,,No,,,
+R00325,2026-09-11,3,Pilot 2,Pilot,Annual leave,Already knew,No,No,,No,,,
+R00326,2026-09-08,3,Pilot 2,Pilot,Annual leave,Already knew,Yes,No,,Yes,,,
+R00327,2026-09-08,3,Pilot 2,Pilot,Annual leave,Already knew,Yes,No,,No,,,
+R00328,2026-09-16,4,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00329,2026-09-15,4,Pilot 2,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00330,2026-09-16,4,Pilot 2,Pilot,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00331,2026-09-14,4,Pilot 2,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00332,2026-09-16,4,Pilot 2,Pilot,Card replacement,Already knew,No,Yes,0.2,No,Yes,No,
+R00333,2026-09-15,4,Pilot 2,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00334,2026-09-18,4,Pilot 2,Pilot,Card replacement,Intranet,No,Yes,5.4,No,Yes,No,
+R00335,2026-09-18,4,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00336,2026-09-18,4,Pilot 2,Pilot,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00337,2026-09-14,4,Pilot 2,Pilot,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00338,2026-09-16,4,Pilot 2,Pilot,Card replacement,Already knew,No,No,,Yes,No,No,
+R00339,2026-09-15,4,Pilot 2,Pilot,Card replacement,Colleague,Yes,No,,No,No,No,
+R00340,2026-09-16,4,Pilot 2,Pilot,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00341,2026-09-17,4,Pilot 2,Pilot,Business account opening,Colleague,Yes,No,,No,,,Yes
+R00342,2026-09-15,4,Pilot 2,Pilot,Business account opening,Already knew,Yes,No,,Yes,,,Yes
+R00343,2026-09-18,4,Pilot 2,Pilot,Business account opening,Colleague,Yes,No,,Yes,,,No
+R00344,2026-09-17,4,Pilot 2,Pilot,Business account opening,Colleague,Yes,No,,Yes,,,No
+R00345,2026-09-17,4,Pilot 2,Pilot,Annual leave,Already knew,No,Yes,0.6,No,,,
+R00346,2026-09-15,4,Pilot 2,Pilot,Annual leave,Intranet,No,No,,No,,,
+R00347,2026-09-24,5,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00348,2026-09-22,5,Pilot 2,Pilot,Card replacement,Already knew,No,Yes,0.5,No,Yes,No,
+R00349,2026-09-23,5,Pilot 2,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00350,2026-09-23,5,Pilot 2,Pilot,Card replacement,Colleague,No,No,,Yes,Yes,No,
+R00351,2026-09-21,5,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00352,2026-09-24,5,Pilot 2,Pilot,Card replacement,Intranet,No,Yes,4.4,No,Yes,No,
+R00353,2026-09-22,5,Pilot 2,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00354,2026-09-25,5,Pilot 2,Pilot,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00355,2026-09-24,5,Pilot 2,Pilot,Card replacement,Intranet,No,Yes,6.4,No,Yes,No,
+R00356,2026-09-24,5,Pilot 2,Pilot,Card replacement,Already knew,Yes,Yes,0.5,Yes,No,No,
+R00357,2026-09-23,5,Pilot 2,Pilot,Card replacement,Intranet,No,Yes,6.6,No,Yes,No,
+R00358,2026-09-25,5,Pilot 2,Pilot,Card replacement,Intranet,No,Yes,10.5,No,Yes,No,
+R00359,2026-09-22,5,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00360,2026-09-23,5,Pilot 2,Pilot,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00361,2026-09-22,5,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00362,2026-09-25,5,Pilot 2,Pilot,Card replacement,Already knew,No,Yes,0.8,No,Yes,No,
+R00363,2026-09-21,5,Pilot 2,Pilot,Card replacement,Colleague,No,Yes,6.1,No,Yes,No,
+R00364,2026-09-23,5,Pilot 2,Pilot,Card replacement,Already knew,No,Yes,0.3,No,Yes,No,
+R00365,2026-09-24,5,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00366,2026-09-25,5,Pilot 2,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00367,2026-09-25,5,Pilot 2,Pilot,Card replacement,Colleague,Yes,Yes,1.9,Yes,No,No,
+R00368,2026-09-23,5,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00369,2026-09-22,5,Pilot 2,Pilot,Card replacement,Colleague,No,No,,Yes,No,No,
+R00370,2026-09-25,5,Pilot 2,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00371,2026-09-24,5,Pilot 2,Pilot,Business account opening,Already knew,Yes,Yes,0.7,Yes,,,Yes
+R00372,2026-09-24,5,Pilot 2,Pilot,Business account opening,Colleague,Yes,No,,No,,,Yes
+R00373,2026-09-23,5,Pilot 2,Pilot,Business account opening,Already knew,No,No,,No,,,No
+R00374,2026-09-25,5,Pilot 2,Pilot,Business account opening,Colleague,Yes,Yes,2.4,Yes,,,Yes
+R00375,2026-09-22,5,Pilot 2,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00376,2026-09-25,5,Pilot 2,Pilot,Business account opening,Colleague,Yes,No,,No,,,No
+R00377,2026-09-22,5,Pilot 2,Pilot,Business account opening,Already knew,No,Yes,0.5,No,,,No
+R00378,2026-09-22,5,Pilot 2,Pilot,Business account opening,Colleague,Yes,No,,No,,,Yes
+R00379,2026-09-22,5,Pilot 2,Pilot,Annual leave,Already knew,No,No,,No,,,
+R00380,2026-09-28,6,Pilot 2,Pilot,Card replacement,Colleague,Yes,No,,No,No,No,
+R00381,2026-09-28,6,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00382,2026-09-28,6,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00383,2026-09-30,6,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00384,2026-10-01,6,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00385,2026-10-02,6,Pilot 2,Pilot,Card replacement,Intranet,No,Yes,9.0,No,Yes,No,
+R00386,2026-09-29,6,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00387,2026-10-01,6,Pilot 2,Pilot,Card replacement,Already knew,No,Yes,0.6,No,Yes,No,
+R00388,2026-09-30,6,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00389,2026-10-01,6,Pilot 2,Pilot,Card replacement,Colleague,No,Yes,3.1,No,Yes,No,
+R00390,2026-09-29,6,Pilot 2,Pilot,Card replacement,Colleague,Yes,No,,No,No,No,
+R00391,2026-09-30,6,Pilot 2,Pilot,Card replacement,Intranet,No,Yes,13.3,No,Yes,No,
+R00392,2026-10-01,6,Pilot 2,Pilot,Card replacement,Colleague,No,Yes,1.8,No,Yes,No,
+R00393,2026-10-01,6,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00394,2026-09-30,6,Pilot 2,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00395,2026-09-30,6,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00396,2026-10-02,6,Pilot 2,Pilot,Business account opening,Colleague,No,Yes,2.8,No,,,No
+R00397,2026-09-28,6,Pilot 2,Pilot,Business account opening,Colleague,Yes,No,,No,,,No
+R00398,2026-09-28,6,Pilot 2,Pilot,Business account opening,Already knew,No,Yes,0.3,No,,,No
+R00399,2026-09-30,6,Pilot 2,Pilot,Business account opening,Intranet,No,Yes,16.9,Yes,,,No
+R00400,2026-10-01,6,Pilot 2,Pilot,Annual leave,Already knew,No,No,,No,,,
+R00401,2026-10-07,7,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00402,2026-10-09,7,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00403,2026-10-09,7,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00404,2026-10-07,7,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00405,2026-10-06,7,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00406,2026-10-08,7,Pilot 2,Pilot,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00407,2026-10-09,7,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00408,2026-10-08,7,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,No,No,
+R00409,2026-10-09,7,Pilot 2,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00410,2026-10-07,7,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00411,2026-10-06,7,Pilot 2,Pilot,Card replacement,Already knew,Yes,No,,No,No,Yes,
+R00412,2026-10-09,7,Pilot 2,Pilot,Business account opening,Colleague,Yes,No,,No,,,No
+R00413,2026-10-06,7,Pilot 2,Pilot,Business account opening,Already knew,No,No,,Yes,,,No
+R00414,2026-10-06,7,Pilot 2,Pilot,Business account opening,Colleague,Yes,No,,Yes,,,No
+R00415,2026-10-07,7,Pilot 2,Pilot,Business account opening,Colleague,No,Yes,2.2,No,,,No
+R00416,2026-10-05,7,Pilot 2,Pilot,Annual leave,Intranet,No,No,,No,,,
+R00417,2026-10-09,7,Pilot 2,Pilot,Annual leave,Already knew,No,No,,No,,,
+R00418,2026-10-12,8,Pilot 2,Pilot,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00419,2026-10-14,8,Pilot 2,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00420,2026-10-15,8,Pilot 2,Pilot,Card replacement,Colleague,No,No,,Yes,No,No,
+R00421,2026-10-16,8,Pilot 2,Pilot,Card replacement,Colleague,Yes,No,,No,No,No,
+R00422,2026-10-15,8,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00423,2026-10-15,8,Pilot 2,Pilot,Card replacement,Intranet,No,Yes,9.2,No,Yes,No,
+R00424,2026-10-14,8,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00425,2026-10-14,8,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00426,2026-10-13,8,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00427,2026-10-12,8,Pilot 2,Pilot,Card replacement,Colleague,No,Yes,2.5,No,Yes,No,
+R00428,2026-10-16,8,Pilot 2,Pilot,Card replacement,Colleague,No,No,,No,Yes,No,
+R00429,2026-10-14,8,Pilot 2,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00430,2026-10-15,8,Pilot 2,Pilot,Card replacement,Colleague,Yes,No,,No,Yes,No,
+R00431,2026-10-12,8,Pilot 2,Pilot,Card replacement,Intranet,No,No,,No,Yes,No,
+R00432,2026-10-16,8,Pilot 2,Pilot,Card replacement,Colleague,No,Yes,3.6,No,Yes,No,
+R00433,2026-10-12,8,Pilot 2,Pilot,Card replacement,Already knew,No,No,,No,Yes,No,
+R00434,2026-10-14,8,Pilot 2,Pilot,Business account opening,Colleague,Yes,No,,No,,,No
+R00435,2026-10-13,8,Pilot 2,Pilot,Business account opening,Already knew,No,No,,No,,,No
+R00436,2026-10-15,8,Pilot 2,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00437,2026-10-12,8,Pilot 2,Pilot,Business account opening,Intranet,No,No,,No,,,No
+R00438,2026-10-14,8,Pilot 2,Pilot,Business account opening,Intranet,No,No,,No,,,No
+R00439,2026-10-13,8,Pilot 2,Pilot,Business account opening,Colleague,No,No,,No,,,No
+R00440,2026-10-13,8,Pilot 2,Pilot,Annual leave,Colleague,No,No,,No,,,
+R00441,2026-10-15,8,Pilot 2,Pilot,Annual leave,Colleague,No,Yes,7.1,No,,,
+R00442,2026-10-13,8,Pilot 2,Pilot,Annual leave,Colleague,Yes,No,,Yes,,,
+R00443,2026-08-26,1,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00444,2026-08-24,1,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00445,2026-08-24,1,Comparison 1,Comparison,Card replacement,Already knew,Yes,Yes,0.4,Yes,No,No,
+R00446,2026-08-26,1,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00447,2026-08-24,1,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00448,2026-08-25,1,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,No,No,No,
+R00449,2026-08-26,1,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00450,2026-08-27,1,Comparison 1,Comparison,Card replacement,Intranet,No,Yes,7.9,No,Yes,No,
+R00451,2026-08-28,1,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,No,Yes,No,
+R00452,2026-08-26,1,Comparison 1,Comparison,Card replacement,Colleague,No,Yes,5.8,No,Yes,No,
+R00453,2026-08-26,1,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00454,2026-08-24,1,Comparison 1,Comparison,Card replacement,Colleague,No,No,,Yes,Yes,No,
+R00455,2026-08-26,1,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,No,No,No,
+R00456,2026-08-28,1,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00457,2026-08-25,1,Comparison 1,Comparison,Card replacement,Colleague,Yes,Yes,3.5,No,Yes,No,
+R00458,2026-08-27,1,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00459,2026-08-25,1,Comparison 1,Comparison,Business account opening,Colleague,Yes,No,,No,,,Yes
+R00460,2026-08-26,1,Comparison 1,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00461,2026-08-26,1,Comparison 1,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00462,2026-08-28,1,Comparison 1,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00463,2026-08-24,1,Comparison 1,Comparison,Business account opening,Already knew,Yes,No,,No,,,No
+R00464,2026-08-28,1,Comparison 1,Comparison,Business account opening,Colleague,No,Yes,4.2,No,,,No
+R00465,2026-08-26,1,Comparison 1,Comparison,Annual leave,Intranet,No,No,,Yes,,,
+R00466,2026-08-24,1,Comparison 1,Comparison,Annual leave,Intranet,No,No,,No,,,
+R00467,2026-08-24,1,Comparison 1,Comparison,Annual leave,Already knew,No,No,,No,,,
+R00468,2026-08-27,1,Comparison 1,Comparison,Annual leave,Colleague,No,No,,No,,,
+R00469,2026-09-02,2,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00470,2026-09-02,2,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00471,2026-09-01,2,Comparison 1,Comparison,Card replacement,Colleague,No,No,,Yes,Yes,No,
+R00472,2026-09-04,2,Comparison 1,Comparison,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00473,2026-09-04,2,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00474,2026-09-04,2,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00475,2026-09-03,2,Comparison 1,Comparison,Card replacement,Colleague,No,No,,Yes,Yes,No,
+R00476,2026-09-02,2,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00477,2026-09-02,2,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00478,2026-09-04,2,Comparison 1,Comparison,Card replacement,Intranet,No,Yes,6.1,Yes,Yes,No,
+R00479,2026-09-01,2,Comparison 1,Comparison,Card replacement,Intranet,No,Yes,4.0,No,Yes,No,
+R00480,2026-09-04,2,Comparison 1,Comparison,Card replacement,Intranet,No,Yes,24.3,Yes,No,No,
+R00481,2026-09-03,2,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,No,No,No,
+R00482,2026-09-02,2,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00483,2026-09-02,2,Comparison 1,Comparison,Card replacement,Colleague,No,No,,Yes,No,No,
+R00484,2026-09-02,2,Comparison 1,Comparison,Card replacement,Already knew,Yes,No,,Yes,No,Yes,
+R00485,2026-09-04,2,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00486,2026-09-01,2,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00487,2026-09-02,2,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00488,2026-09-02,2,Comparison 1,Comparison,Business account opening,Already knew,No,No,,No,,,No
+R00489,2026-09-03,2,Comparison 1,Comparison,Annual leave,Colleague,No,No,,No,,,
+R00490,2026-09-01,2,Comparison 1,Comparison,Annual leave,Intranet,No,No,,No,,,
+R00491,2026-09-03,2,Comparison 1,Comparison,Annual leave,Already knew,No,No,,No,,,
+R00492,2026-09-08,3,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00493,2026-09-11,3,Comparison 1,Comparison,Card replacement,Colleague,No,No,,Yes,No,No,
+R00494,2026-09-11,3,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00495,2026-09-07,3,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00496,2026-09-08,3,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00497,2026-09-07,3,Comparison 1,Comparison,Card replacement,Intranet,No,No,,Yes,No,No,
+R00498,2026-09-07,3,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00499,2026-09-11,3,Comparison 1,Comparison,Card replacement,Colleague,No,Yes,1.8,No,Yes,No,
+R00500,2026-09-08,3,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00501,2026-09-07,3,Comparison 1,Comparison,Card replacement,Already knew,Yes,No,,No,Yes,No,
+R00502,2026-09-11,3,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00503,2026-09-11,3,Comparison 1,Comparison,Card replacement,Colleague,Yes,Yes,1.7,No,No,No,
+R00504,2026-09-07,3,Comparison 1,Comparison,Business account opening,Already knew,No,No,,No,,,No
+R00505,2026-09-11,3,Comparison 1,Comparison,Business account opening,Colleague,Yes,No,,No,,,No
+R00506,2026-09-09,3,Comparison 1,Comparison,Business account opening,Colleague,Yes,Yes,2.4,Yes,,,Yes
+R00507,2026-09-09,3,Comparison 1,Comparison,Business account opening,Colleague,No,Yes,2.1,Yes,,,No
+R00508,2026-09-10,3,Comparison 1,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00509,2026-09-07,3,Comparison 1,Comparison,Business account opening,Intranet,No,Yes,17.4,No,,,No
+R00510,2026-09-07,3,Comparison 1,Comparison,Business account opening,Already knew,No,No,,No,,,No
+R00511,2026-09-11,3,Comparison 1,Comparison,Business account opening,Intranet,No,No,,No,,,No
+R00512,2026-09-10,3,Comparison 1,Comparison,Business account opening,Already knew,No,No,,No,,,No
+R00513,2026-09-08,3,Comparison 1,Comparison,Business account opening,Colleague,Yes,No,,Yes,,,Yes
+R00514,2026-09-11,3,Comparison 1,Comparison,Annual leave,Already knew,No,No,,No,,,
+R00515,2026-09-09,3,Comparison 1,Comparison,Annual leave,Intranet,No,No,,No,,,
+R00516,2026-09-18,4,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00517,2026-09-15,4,Comparison 1,Comparison,Card replacement,Colleague,No,No,,Yes,No,No,
+R00518,2026-09-18,4,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,No,No,
+R00519,2026-09-16,4,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00520,2026-09-17,4,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00521,2026-09-16,4,Comparison 1,Comparison,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00522,2026-09-17,4,Comparison 1,Comparison,Card replacement,Already knew,No,Yes,0.3,No,Yes,No,
+R00523,2026-09-17,4,Comparison 1,Comparison,Card replacement,Already knew,No,Yes,0.4,No,Yes,No,
+R00524,2026-09-17,4,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00525,2026-09-17,4,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00526,2026-09-15,4,Comparison 1,Comparison,Card replacement,Colleague,No,Yes,1.9,No,Yes,No,
+R00527,2026-09-14,4,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00528,2026-09-17,4,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00529,2026-09-17,4,Comparison 1,Comparison,Card replacement,Colleague,Yes,Yes,5.7,Yes,No,No,
+R00530,2026-09-15,4,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00531,2026-09-16,4,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00532,2026-09-16,4,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00533,2026-09-14,4,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00534,2026-09-16,4,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00535,2026-09-14,4,Comparison 1,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00536,2026-09-15,4,Comparison 1,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00537,2026-09-16,4,Comparison 1,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00538,2026-09-18,4,Comparison 1,Comparison,Annual leave,Colleague,Yes,No,,No,,,
+R00539,2026-09-16,4,Comparison 1,Comparison,Annual leave,Already knew,No,Yes,0.8,No,,,
+R00540,2026-09-18,4,Comparison 1,Comparison,Annual leave,Colleague,No,No,,No,,,
+R00541,2026-09-14,4,Comparison 1,Comparison,Annual leave,Colleague,No,Yes,1.2,No,,,
+R00542,2026-09-17,4,Comparison 1,Comparison,Annual leave,Colleague,Yes,No,,Yes,,,
+R00543,2026-09-17,4,Comparison 1,Comparison,Annual leave,Already knew,No,No,,No,,,
+R00544,2026-09-23,5,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,No,Yes,No,
+R00545,2026-09-23,5,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00546,2026-09-25,5,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00547,2026-09-25,5,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00548,2026-09-21,5,Comparison 1,Comparison,Card replacement,Colleague,Yes,Yes,2.9,Yes,No,No,
+R00549,2026-09-22,5,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00550,2026-09-21,5,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00551,2026-09-23,5,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00552,2026-09-24,5,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00553,2026-09-22,5,Comparison 1,Comparison,Card replacement,Intranet,No,Yes,29.1,No,Yes,No,
+R00554,2026-09-24,5,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,No,No,No,
+R00555,2026-09-22,5,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00556,2026-09-23,5,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00557,2026-09-22,5,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00558,2026-09-22,5,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00559,2026-09-22,5,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00560,2026-09-22,5,Comparison 1,Comparison,Card replacement,Already knew,Yes,No,,No,No,No,
+R00561,2026-09-25,5,Comparison 1,Comparison,Card replacement,Already knew,No,Yes,1.2,No,Yes,No,
+R00562,2026-09-24,5,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00563,2026-09-24,5,Comparison 1,Comparison,Card replacement,Intranet,No,Yes,5.5,No,Yes,No,
+R00564,2026-09-22,5,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00565,2026-09-22,5,Comparison 1,Comparison,Card replacement,Colleague,No,Yes,1.7,No,Yes,No,
+R00566,2026-09-22,5,Comparison 1,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00567,2026-09-21,5,Comparison 1,Comparison,Business account opening,Already knew,No,No,,No,,,No
+R00568,2026-09-21,5,Comparison 1,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00569,2026-09-25,5,Comparison 1,Comparison,Business account opening,Already knew,Yes,Yes,0.5,Yes,,,Yes
+R00570,2026-09-25,5,Comparison 1,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00571,2026-09-23,5,Comparison 1,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00572,2026-09-24,5,Comparison 1,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00573,2026-09-21,5,Comparison 1,Comparison,Business account opening,Already knew,No,No,,Yes,,,No
+R00574,2026-09-23,5,Comparison 1,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00575,2026-09-21,5,Comparison 1,Comparison,Business account opening,Already knew,Yes,Yes,0.2,No,,,No
+R00576,2026-09-25,5,Comparison 1,Comparison,Annual leave,Intranet,No,No,,No,,,
+R00577,2026-09-23,5,Comparison 1,Comparison,Annual leave,Already knew,No,No,,No,,,
+R00578,2026-10-02,6,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00579,2026-09-28,6,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00580,2026-09-30,6,Comparison 1,Comparison,Card replacement,Intranet,No,No,,Yes,Yes,No,
+R00581,2026-09-29,6,Comparison 1,Comparison,Card replacement,Already knew,Yes,No,,No,Yes,No,
+R00582,2026-10-02,6,Comparison 1,Comparison,Card replacement,Already knew,Yes,Yes,0.4,Yes,No,No,
+R00583,2026-09-30,6,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00584,2026-10-01,6,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00585,2026-09-29,6,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00586,2026-10-01,6,Comparison 1,Comparison,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00587,2026-10-01,6,Comparison 1,Comparison,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00588,2026-10-01,6,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00589,2026-09-29,6,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00590,2026-09-29,6,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00591,2026-09-28,6,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00592,2026-09-29,6,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00593,2026-09-30,6,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00594,2026-10-01,6,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00595,2026-09-29,6,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00596,2026-10-02,6,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00597,2026-09-29,6,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00598,2026-10-01,6,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00599,2026-10-01,6,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00600,2026-09-28,6,Comparison 1,Comparison,Business account opening,Intranet,No,No,,No,,,No
+R00601,2026-10-01,6,Comparison 1,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00602,2026-10-01,6,Comparison 1,Comparison,Business account opening,Intranet,No,No,,No,,,No
+R00603,2026-10-02,6,Comparison 1,Comparison,Business account opening,Colleague,No,Yes,3.1,No,,,No
+R00604,2026-10-02,6,Comparison 1,Comparison,Business account opening,Already knew,No,No,,No,,,No
+R00605,2026-10-09,7,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00606,2026-10-07,7,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00607,2026-10-05,7,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00608,2026-10-08,7,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00609,2026-10-09,7,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00610,2026-10-08,7,Comparison 1,Comparison,Card replacement,Already knew,No,Yes,0.6,No,Yes,No,
+R00611,2026-10-08,7,Comparison 1,Comparison,Card replacement,Colleague,Yes,Yes,1.7,No,Yes,No,
+R00612,2026-10-06,7,Comparison 1,Comparison,Card replacement,Intranet,No,Yes,12.6,No,Yes,No,
+R00613,2026-10-07,7,Comparison 1,Comparison,Card replacement,Intranet,No,Yes,9.5,No,Yes,No,
+R00614,2026-10-05,7,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00615,2026-10-09,7,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00616,2026-10-06,7,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00617,2026-10-09,7,Comparison 1,Comparison,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00618,2026-10-09,7,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00619,2026-10-06,7,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00620,2026-10-05,7,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00621,2026-10-06,7,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00622,2026-10-07,7,Comparison 1,Comparison,Card replacement,Already knew,No,Yes,0.4,No,Yes,No,
+R00623,2026-10-06,7,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00624,2026-10-06,7,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00625,2026-10-09,7,Comparison 1,Comparison,Card replacement,Colleague,Yes,Yes,7.0,No,Yes,No,
+R00626,2026-10-09,7,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00627,2026-10-09,7,Comparison 1,Comparison,Card replacement,Colleague,No,No,,Yes,No,No,
+R00628,2026-10-09,7,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00629,2026-10-08,7,Comparison 1,Comparison,Card replacement,Colleague,No,No,,Yes,No,No,
+R00630,2026-10-09,7,Comparison 1,Comparison,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00631,2026-10-06,7,Comparison 1,Comparison,Card replacement,Already knew,No,Yes,0.6,No,Yes,No,
+R00632,2026-10-06,7,Comparison 1,Comparison,Business account opening,Intranet,No,Yes,6.7,No,,,No
+R00633,2026-10-07,7,Comparison 1,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00634,2026-10-06,7,Comparison 1,Comparison,Business account opening,Intranet,No,No,,No,,,No
+R00635,2026-10-05,7,Comparison 1,Comparison,Business account opening,Colleague,Yes,No,,No,,,Yes
+R00636,2026-10-08,7,Comparison 1,Comparison,Business account opening,Intranet,No,No,,No,,,No
+R00637,2026-10-07,7,Comparison 1,Comparison,Business account opening,Colleague,Yes,No,,Yes,,,Yes
+R00638,2026-10-06,7,Comparison 1,Comparison,Annual leave,Already knew,No,No,,No,,,
+R00639,2026-10-07,7,Comparison 1,Comparison,Annual leave,Colleague,No,No,,No,,,
+R00640,2026-10-14,8,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00641,2026-10-16,8,Comparison 1,Comparison,Card replacement,Already knew,No,Yes,0.4,No,Yes,No,
+R00642,2026-10-16,8,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00643,2026-10-15,8,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00644,2026-10-16,8,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00645,2026-10-13,8,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00646,2026-10-14,8,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00647,2026-10-12,8,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00648,2026-10-14,8,Comparison 1,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00649,2026-10-12,8,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00650,2026-10-14,8,Comparison 1,Comparison,Card replacement,Colleague,Yes,Yes,2.1,Yes,No,No,
+R00651,2026-10-15,8,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00652,2026-10-12,8,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00653,2026-10-15,8,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00654,2026-10-15,8,Comparison 1,Comparison,Card replacement,Colleague,Yes,Yes,5.8,No,Yes,No,
+R00655,2026-10-13,8,Comparison 1,Comparison,Card replacement,Intranet,No,Yes,9.0,No,Yes,No,
+R00656,2026-10-16,8,Comparison 1,Comparison,Card replacement,Colleague,No,Yes,1.8,Yes,No,No,
+R00657,2026-10-12,8,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00658,2026-10-13,8,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00659,2026-10-12,8,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00660,2026-10-13,8,Comparison 1,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00661,2026-10-14,8,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00662,2026-10-13,8,Comparison 1,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00663,2026-10-12,8,Comparison 1,Comparison,Card replacement,Intranet,No,Yes,11.6,No,Yes,No,
+R00664,2026-10-15,8,Comparison 1,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00665,2026-10-15,8,Comparison 1,Comparison,Business account opening,Colleague,Yes,No,,Yes,,,Yes
+R00666,2026-10-12,8,Comparison 1,Comparison,Business account opening,Already knew,No,No,,No,,,No
+R00667,2026-10-13,8,Comparison 1,Comparison,Annual leave,Intranet,No,Yes,7.3,No,,,
+R00668,2026-10-16,8,Comparison 1,Comparison,Annual leave,Colleague,No,Yes,3.1,No,,,
+R00669,2026-10-15,8,Comparison 1,Comparison,Annual leave,Intranet,No,No,,No,,,
+R00670,2026-08-26,1,Comparison 2,Comparison,Card replacement,Colleague,Yes,No,,No,No,No,
+R00671,2026-08-24,1,Comparison 2,Comparison,Card replacement,Already knew,Yes,Yes,0.7,Yes,No,No,
+R00672,2026-08-24,1,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00673,2026-08-28,1,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00674,2026-08-27,1,Comparison 2,Comparison,Card replacement,Intranet,No,Yes,5.5,No,Yes,No,
+R00675,2026-08-24,1,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00676,2026-08-27,1,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00677,2026-08-25,1,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00678,2026-08-27,1,Comparison 2,Comparison,Card replacement,Already knew,No,No,,Yes,Yes,No,
+R00679,2026-08-26,1,Comparison 2,Comparison,Card replacement,Already knew,No,Yes,0.7,No,Yes,No,
+R00680,2026-08-24,1,Comparison 2,Comparison,Card replacement,Intranet,No,Yes,7.2,No,Yes,No,
+R00681,2026-08-28,1,Comparison 2,Comparison,Card replacement,Already knew,Yes,No,,No,No,No,
+R00682,2026-08-28,1,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00683,2026-08-27,1,Comparison 2,Comparison,Card replacement,Colleague,Yes,No,,No,No,No,
+R00684,2026-08-24,1,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00685,2026-08-25,1,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00686,2026-08-25,1,Comparison 2,Comparison,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00687,2026-08-28,1,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00688,2026-08-27,1,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00689,2026-08-26,1,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00690,2026-08-28,1,Comparison 2,Comparison,Card replacement,Already knew,Yes,No,,No,No,No,
+R00691,2026-08-25,1,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00692,2026-08-27,1,Comparison 2,Comparison,Card replacement,Colleague,No,No,,Yes,No,No,
+R00693,2026-08-24,1,Comparison 2,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00694,2026-08-27,1,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00695,2026-08-25,1,Comparison 2,Comparison,Card replacement,Already knew,No,Yes,0.6,No,Yes,No,
+R00696,2026-08-28,1,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00697,2026-08-27,1,Comparison 2,Comparison,Card replacement,Colleague,No,Yes,4.0,No,Yes,No,
+R00698,2026-08-26,1,Comparison 2,Comparison,Card replacement,Colleague,Yes,No,,No,Yes,No,
+R00699,2026-08-24,1,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00700,2026-08-26,1,Comparison 2,Comparison,Business account opening,Already knew,Yes,No,,No,,,Yes
+R00701,2026-08-27,1,Comparison 2,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00702,2026-08-27,1,Comparison 2,Comparison,Business account opening,Already knew,Yes,No,,No,,,Yes
+R00703,2026-08-24,1,Comparison 2,Comparison,Business account opening,Intranet,No,No,,No,,,No
+R00704,2026-08-25,1,Comparison 2,Comparison,Business account opening,Intranet,No,Yes,8.4,No,,,No
+R00705,2026-08-28,1,Comparison 2,Comparison,Business account opening,Intranet,No,No,,No,,,No
+R00706,2026-08-26,1,Comparison 2,Comparison,Business account opening,Colleague,No,Yes,2.0,No,,,No
+R00707,2026-08-25,1,Comparison 2,Comparison,Annual leave,Intranet,No,Yes,13.6,No,,,
+R00708,2026-08-31,2,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00709,2026-09-03,2,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00710,2026-09-02,2,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00711,2026-09-01,2,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00712,2026-08-31,2,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00713,2026-09-03,2,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00714,2026-09-03,2,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00715,2026-09-02,2,Comparison 2,Comparison,Card replacement,Colleague,No,Yes,2.9,No,Yes,No,
+R00716,2026-09-04,2,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00717,2026-09-02,2,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00718,2026-09-02,2,Comparison 2,Comparison,Card replacement,Colleague,Yes,Yes,6.1,Yes,No,No,
+R00719,2026-09-04,2,Comparison 2,Comparison,Card replacement,Intranet,No,Yes,13.5,No,Yes,No,
+R00720,2026-09-03,2,Comparison 2,Comparison,Card replacement,Colleague,No,Yes,4.7,No,Yes,No,
+R00721,2026-09-01,2,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00722,2026-09-03,2,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00723,2026-09-04,2,Comparison 2,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00724,2026-09-04,2,Comparison 2,Comparison,Business account opening,Already knew,No,Yes,0.3,No,,,No
+R00725,2026-09-02,2,Comparison 2,Comparison,Annual leave,Already knew,No,Yes,0.6,No,,,
+R00726,2026-09-04,2,Comparison 2,Comparison,Annual leave,Intranet,No,Yes,9.5,No,,,
+R00727,2026-08-31,2,Comparison 2,Comparison,Annual leave,Already knew,No,No,,No,,,
+R00728,2026-09-09,3,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00729,2026-09-10,3,Comparison 2,Comparison,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00730,2026-09-11,3,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00731,2026-09-07,3,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00732,2026-09-11,3,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00733,2026-09-08,3,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00734,2026-09-09,3,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00735,2026-09-08,3,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,No,No,
+R00736,2026-09-11,3,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00737,2026-09-08,3,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00738,2026-09-09,3,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00739,2026-09-10,3,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00740,2026-09-09,3,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00741,2026-09-08,3,Comparison 2,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00742,2026-09-11,3,Comparison 2,Comparison,Card replacement,Already knew,No,Yes,0.6,No,Yes,No,
+R00743,2026-09-07,3,Comparison 2,Comparison,Card replacement,Already knew,No,No,,Yes,No,No,
+R00744,2026-09-08,3,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00745,2026-09-11,3,Comparison 2,Comparison,Card replacement,Intranet,No,Yes,7.2,No,Yes,No,
+R00746,2026-09-11,3,Comparison 2,Comparison,Business account opening,Already knew,No,No,,No,,,No
+R00747,2026-09-09,3,Comparison 2,Comparison,Business account opening,Intranet,No,No,,No,,,No
+R00748,2026-09-07,3,Comparison 2,Comparison,Business account opening,Colleague,Yes,No,,Yes,,,Yes
+R00749,2026-09-09,3,Comparison 2,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00750,2026-09-10,3,Comparison 2,Comparison,Business account opening,Colleague,Yes,No,,Yes,,,Yes
+R00751,2026-09-09,3,Comparison 2,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00752,2026-09-11,3,Comparison 2,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00753,2026-09-08,3,Comparison 2,Comparison,Annual leave,Already knew,No,No,,No,,,
+R00754,2026-09-10,3,Comparison 2,Comparison,Annual leave,Intranet,No,No,,No,,,
+R00755,2026-09-14,4,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00756,2026-09-16,4,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00757,2026-09-15,4,Comparison 2,Comparison,Card replacement,Colleague,Yes,Yes,5.0,No,Yes,No,
+R00758,2026-09-14,4,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00759,2026-09-17,4,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00760,2026-09-15,4,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00761,2026-09-16,4,Comparison 2,Comparison,Card replacement,Intranet,No,Yes,4.7,No,Yes,No,
+R00762,2026-09-14,4,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00763,2026-09-18,4,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00764,2026-09-14,4,Comparison 2,Comparison,Card replacement,Already knew,No,Yes,0.1,No,Yes,No,
+R00765,2026-09-15,4,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00766,2026-09-15,4,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00767,2026-09-17,4,Comparison 2,Comparison,Card replacement,Colleague,No,No,,Yes,No,No,
+R00768,2026-09-15,4,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00769,2026-09-15,4,Comparison 2,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00770,2026-09-14,4,Comparison 2,Comparison,Business account opening,Colleague,Yes,No,,No,,,Yes
+R00771,2026-09-15,4,Comparison 2,Comparison,Annual leave,Already knew,No,No,,No,,,
+R00772,2026-09-22,5,Comparison 2,Comparison,Card replacement,Already knew,No,Yes,0.6,No,Yes,No,
+R00773,2026-09-21,5,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00774,2026-09-21,5,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00775,2026-09-25,5,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00776,2026-09-22,5,Comparison 2,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00777,2026-09-23,5,Comparison 2,Comparison,Card replacement,Colleague,Yes,Yes,2.5,Yes,No,No,
+R00778,2026-09-23,5,Comparison 2,Comparison,Card replacement,Intranet,No,Yes,4.8,No,Yes,No,
+R00779,2026-09-23,5,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00780,2026-09-25,5,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00781,2026-09-23,5,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00782,2026-09-21,5,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00783,2026-09-24,5,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00784,2026-09-24,5,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00785,2026-09-21,5,Comparison 2,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00786,2026-09-22,5,Comparison 2,Comparison,Business account opening,Colleague,No,No,,Yes,,,No
+R00787,2026-09-23,5,Comparison 2,Comparison,Business account opening,Colleague,Yes,No,,No,,,Yes
+R00788,2026-09-25,5,Comparison 2,Comparison,Annual leave,Already knew,Yes,No,,Yes,,,
+R00789,2026-09-24,5,Comparison 2,Comparison,Annual leave,Already knew,No,No,,No,,,
+R00790,2026-09-21,5,Comparison 2,Comparison,Annual leave,Already knew,Yes,No,,Yes,,,
+R00791,2026-10-02,6,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00792,2026-09-29,6,Comparison 2,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00793,2026-10-02,6,Comparison 2,Comparison,Card replacement,Already knew,Yes,No,,No,Yes,No,
+R00794,2026-09-30,6,Comparison 2,Comparison,Card replacement,Already knew,No,Yes,0.5,No,Yes,No,
+R00795,2026-10-02,6,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00796,2026-09-28,6,Comparison 2,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00797,2026-10-02,6,Comparison 2,Comparison,Card replacement,Colleague,Yes,No,,No,Yes,No,
+R00798,2026-10-02,6,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00799,2026-10-02,6,Comparison 2,Comparison,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00800,2026-10-01,6,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00801,2026-10-01,6,Comparison 2,Comparison,Card replacement,Already knew,No,Yes,0.6,No,Yes,No,
+R00802,2026-10-01,6,Comparison 2,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00803,2026-10-01,6,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00804,2026-09-29,6,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00805,2026-09-30,6,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00806,2026-10-01,6,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00807,2026-09-29,6,Comparison 2,Comparison,Card replacement,Colleague,No,Yes,0.7,No,Yes,No,
+R00808,2026-09-28,6,Comparison 2,Comparison,Card replacement,Already knew,Yes,No,,No,No,No,
+R00809,2026-09-28,6,Comparison 2,Comparison,Card replacement,Intranet,No,Yes,12.4,No,Yes,No,
+R00810,2026-09-30,6,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00811,2026-09-28,6,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00812,2026-10-02,6,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00813,2026-09-30,6,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00814,2026-09-28,6,Comparison 2,Comparison,Business account opening,Intranet,No,No,,No,,,No
+R00815,2026-10-01,6,Comparison 2,Comparison,Business account opening,Already knew,No,No,,No,,,No
+R00816,2026-09-29,6,Comparison 2,Comparison,Business account opening,Colleague,Yes,No,,No,,,Yes
+R00817,2026-09-30,6,Comparison 2,Comparison,Business account opening,Already knew,No,Yes,0.6,No,,,No
+R00818,2026-10-02,6,Comparison 2,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00819,2026-09-28,6,Comparison 2,Comparison,Business account opening,Colleague,Yes,Yes,1.4,No,,,No
+R00820,2026-09-28,6,Comparison 2,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00821,2026-10-01,6,Comparison 2,Comparison,Annual leave,Colleague,No,No,,No,,,
+R00822,2026-09-29,6,Comparison 2,Comparison,Annual leave,Already knew,No,No,,No,,,
+R00823,2026-10-07,7,Comparison 2,Comparison,Card replacement,Already knew,No,Yes,0.6,No,Yes,No,
+R00824,2026-10-05,7,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00825,2026-10-07,7,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00826,2026-10-06,7,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00827,2026-10-09,7,Comparison 2,Comparison,Card replacement,Colleague,Yes,No,,No,No,No,
+R00828,2026-10-06,7,Comparison 2,Comparison,Card replacement,Colleague,Yes,No,,Yes,No,No,
+R00829,2026-10-06,7,Comparison 2,Comparison,Card replacement,Colleague,No,Yes,3.5,No,Yes,No,
+R00830,2026-10-06,7,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00831,2026-10-07,7,Comparison 2,Comparison,Card replacement,Colleague,No,No,,Yes,No,No,
+R00832,2026-10-08,7,Comparison 2,Comparison,Card replacement,Colleague,Yes,No,,No,No,No,
+R00833,2026-10-09,7,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00834,2026-10-09,7,Comparison 2,Comparison,Card replacement,Colleague,Yes,No,,No,No,No,
+R00835,2026-10-08,7,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00836,2026-10-06,7,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00837,2026-10-09,7,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00838,2026-10-08,7,Comparison 2,Comparison,Card replacement,Colleague,Yes,No,,No,Yes,No,
+R00839,2026-10-08,7,Comparison 2,Comparison,Card replacement,Intranet,No,Yes,13.1,No,Yes,No,
+R00840,2026-10-09,7,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00841,2026-10-05,7,Comparison 2,Comparison,Card replacement,Colleague,Yes,No,,No,No,No,
+R00842,2026-10-07,7,Comparison 2,Comparison,Card replacement,Already knew,No,Yes,0.2,No,Yes,No,
+R00843,2026-10-05,7,Comparison 2,Comparison,Card replacement,Intranet,No,No,,No,Yes,No,
+R00844,2026-10-05,7,Comparison 2,Comparison,Card replacement,Colleague,No,Yes,5.7,Yes,Yes,No,
+R00845,2026-10-05,7,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00846,2026-10-08,7,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00847,2026-10-08,7,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00848,2026-10-08,7,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00849,2026-10-09,7,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00850,2026-10-08,7,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00851,2026-10-09,7,Comparison 2,Comparison,Card replacement,Intranet,No,Yes,9.1,No,Yes,No,
+R00852,2026-10-09,7,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00853,2026-10-05,7,Comparison 2,Comparison,Business account opening,Colleague,No,Yes,1.6,No,,,No
+R00854,2026-10-09,7,Comparison 2,Comparison,Business account opening,Colleague,Yes,No,,No,,,Yes
+R00855,2026-10-07,7,Comparison 2,Comparison,Business account opening,Colleague,Yes,No,,Yes,,,No
+R00856,2026-10-06,7,Comparison 2,Comparison,Business account opening,Colleague,No,No,,No,,,No
+R00857,2026-10-08,7,Comparison 2,Comparison,Annual leave,Intranet,No,Yes,9.4,No,,,
+R00858,2026-10-12,8,Comparison 2,Comparison,Card replacement,Intranet,No,Yes,4.8,No,Yes,No,
+R00859,2026-10-14,8,Comparison 2,Comparison,Card replacement,Already knew,Yes,Yes,0.7,Yes,No,No,
+R00860,2026-10-15,8,Comparison 2,Comparison,Card replacement,Intranet,No,Yes,7.0,No,Yes,No,
+R00861,2026-10-14,8,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00862,2026-10-16,8,Comparison 2,Comparison,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00863,2026-10-14,8,Comparison 2,Comparison,Card replacement,Already knew,No,Yes,0.3,No,Yes,No,
+R00864,2026-10-13,8,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00865,2026-10-16,8,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00866,2026-10-13,8,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00867,2026-10-15,8,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00868,2026-10-13,8,Comparison 2,Comparison,Card replacement,Colleague,Yes,No,,No,No,No,
+R00869,2026-10-13,8,Comparison 2,Comparison,Card replacement,Already knew,Yes,No,,Yes,No,No,
+R00870,2026-10-16,8,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00871,2026-10-16,8,Comparison 2,Comparison,Card replacement,Colleague,No,No,,No,Yes,No,
+R00872,2026-10-13,8,Comparison 2,Comparison,Card replacement,Already knew,No,No,,No,Yes,No,
+R00873,2026-10-16,8,Comparison 2,Comparison,Business account opening,Already knew,No,No,,No,,,No
+R00874,2026-10-12,8,Comparison 2,Comparison,Business account opening,Intranet,No,No,,No,,,No
+R00875,2026-10-12,8,Comparison 2,Comparison,Business account opening,Colleague,No,Yes,4.0,No,,,No
+R00876,2026-10-15,8,Comparison 2,Comparison,Business account opening,Colleague,Yes,No,,No,,,Yes
+R00877,2026-10-16,8,Comparison 2,Comparison,Business account opening,Colleague,No,Yes,1.1,No,,,No
+R00878,2026-10-16,8,Comparison 2,Comparison,Annual leave,Intranet,No,No,,No,,,
+R00879,2026-10-15,8,Comparison 2,Comparison,Annual leave,Intranet,No,No,,No,,,
+R00880,2026-10-12,8,Comparison 2,Comparison,Annual leave,Colleague,No,No,,No,,,

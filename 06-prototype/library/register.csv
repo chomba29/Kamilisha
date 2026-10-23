@@ -1,0 +1,16 @@
+id,title,version,status,effective_date,owner,file,pages
+CIR-ACC-10,Individual account opening and KYC,4,Live,2026-01-15,Operations,pdf/CIR-ACC-10-v4.pdf,6
+CIR-ACC-12,Business account opening,1,Superseded,2024-07-01,Operations,pdf/CIR-ACC-12-v1.pdf,6
+CIR-ACC-12,Business account opening,2,Live,2026-08-15,Operations,pdf/CIR-ACC-12-v2.pdf,7
+CIR-ACC-15,Customer information update,2,Live,2025-06-01,Operations,pdf/CIR-ACC-15-v2.pdf,6
+CIR-CARD-05,New card issuance,3,Live,2025-11-01,Cards and Payments,pdf/CIR-CARD-05-v3.pdf,6
+CIR-CARD-07,Card replacement,1,Superseded,2025-03-01,Cards and Payments,pdf/CIR-CARD-07-v1.pdf,6
+CIR-CARD-07,Card replacement,2,Live,2026-09-01,Cards and Payments,pdf/CIR-CARD-07-v2.pdf,7
+CIR-CRD-21,Loan origination checklist,3,Live,2025-10-01,Credit,pdf/CIR-CRD-21-v3.pdf,6
+CIR-CRD-22,Collateral documentation,2,Live,2025-10-01,Credit,pdf/CIR-CRD-22-v2.pdf,6
+CIR-DIG-03,SIM banking enrolment,2,Live,2025-09-01,Digital Banking,pdf/CIR-DIG-03-v2.pdf,6
+CIR-DIG-04,Internet banking enrolment and PIN reset,1,Live,2026-02-01,Digital Banking,pdf/CIR-DIG-04-v1.pdf,6
+HR-POL-01,Staff code of conduct,3,Live,2025-01-01,Human Resources,pdf/HR-POL-01-v3.pdf,6
+HR-POL-03,Annual leave,1,Superseded,2023-01-01,Human Resources,pdf/HR-POL-03-v1.pdf,6
+HR-POL-03,Annual leave,2,Live,2026-03-01,Human Resources,pdf/HR-POL-03-v2.pdf,6
+HR-POL-07,Salary advance and staff loans,2,Live,2026-04-01,Human Resources,pdf/HR-POL-07-v2.pdf,6
